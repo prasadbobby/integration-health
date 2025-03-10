@@ -1,0 +1,1323 @@
+2025-03-07 21:20:53,043 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 21:20:53,046 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 21:20:53,047 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 21:20:53,047 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 21:20:53,048 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 21:20:53,175 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.44:5002
+2025-03-07 21:20:53,176 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 21:20:53,248 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 21:20:54,426 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 21:20:54,444 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 21:20:54,464 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 21:20:54,483 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 21:20:54,485 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 21:20:54,498 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 21:20:54,505 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 21:20:54,515 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 21:20:54,521 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 21:20:54,523 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 21:20:54,524 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 21:20:54,526 - mediassist_agent - INFO - Registered 9 agents
+2025-03-07 21:20:54,526 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 21:20:54,527 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 21:20:58,636 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 21:20:58,639 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 21:20:58,639 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 21:20:58,639 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 21:20:58,639 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 21:20:58,662 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 21:20:58,688 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 21:20:59,036 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 21:20:59,044 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 21:20:59,051 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 21:20:59,058 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 21:20:59,061 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 21:20:59,063 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 21:20:59,064 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 21:20:59,064 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 21:20:59,065 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 21:20:59,066 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 21:20:59,066 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 21:20:59,066 - mediassist_agent - INFO - Registered 9 agents
+2025-03-07 21:20:59,067 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 21:20:59,067 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 21:22:55,193 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 21:22:55] "GET / HTTP/1.1" 200 -
+2025-03-07 21:22:55,384 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 21:22:55] "GET /status HTTP/1.1" 200 -
+2025-03-07 23:30:48,122 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:30:48,153 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:30:50,480 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:30:58,057 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:30:58,061 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:30:58,061 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:30:58,061 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:30:58,062 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:30:58,092 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:30:58,125 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:30:58,575 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:30:58,583 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:30:58,592 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:30:58,600 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:30:58,602 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:30:58,609 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:30:58,610 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:30:58,612 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:30:58,614 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:30:58,614 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:30:58,615 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:30:58,615 - mediassist_agent - INFO - Registered 9 agents
+2025-03-07 23:30:58,615 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:30:58,616 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:32:45,178 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:32:45,180 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:32:45,182 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:32:45,829 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:33:55,603 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:33:55,605 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:33:55,606 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:33:55,606 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:33:55,606 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:33:55,679 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.44:5002
+2025-03-07 23:33:55,681 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 23:33:55,699 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:33:56,009 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:33:56,016 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:33:56,025 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:33:56,032 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:33:56,034 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:33:56,036 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:33:56,037 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:33:56,039 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:33:56,040 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:33:56,040 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:33:56,040 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:33:56,040 - mediassist_agent - INFO - Registered 9 agents
+2025-03-07 23:33:56,042 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:33:56,042 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:34:00,516 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:34:00,517 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:34:00,518 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:34:00,518 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:34:00,518 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:34:00,540 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:34:00,563 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:34:00,880 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:34:00,887 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:34:00,894 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:34:00,903 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:34:00,905 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:34:00,907 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:34:00,908 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:34:00,910 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:34:00,910 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:34:00,911 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:34:00,912 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:34:00,912 - mediassist_agent - INFO - Registered 9 agents
+2025-03-07 23:34:00,913 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:34:00,913 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:34:45,965 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:34:45,966 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:34:45,968 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:34:47,534 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:34:52,481 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:34:52,484 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:34:52,485 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:34:52,485 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:34:52,485 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:34:52,512 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:34:52,550 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:34:52,884 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:34:52,892 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:34:52,901 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:34:52,907 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:34:52,910 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:34:52,912 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:34:52,914 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:34:52,915 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:34:52,916 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:34:52,916 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:34:52,917 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:34:52,917 - mediassist_agent - INFO - Registered 9 agents
+2025-03-07 23:34:52,917 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:34:52,917 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:36:01,066 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:36:01,067 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:36:01,068 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:36:02,518 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:37:32,310 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:37:32,312 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:37:32,313 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:37:32,313 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:37:32,313 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:37:32,375 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.44:5002
+2025-03-07 23:37:32,376 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 23:37:32,396 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:37:32,725 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:37:32,733 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:37:32,741 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:37:32,748 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:37:32,749 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:37:32,752 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:37:32,753 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:37:32,754 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:37:32,756 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:37:32,756 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:37:32,758 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:37:32,758 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:37:32,758 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:37:32,758 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:37:36,965 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:37:36,967 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:37:36,968 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:37:36,968 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:37:36,969 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:37:36,992 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:37:37,016 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:37:37,344 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:37:37,351 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:37:37,359 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:37:37,366 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:37:37,368 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:37:37,370 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:37:37,371 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:37:37,373 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:37:37,373 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:37:37,373 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:37:37,374 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:37:37,374 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:37:37,374 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:37:37,374 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:37:51,317 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:37:51] "GET / HTTP/1.1" 200 -
+2025-03-07 23:37:53,011 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:37:53] "GET /status HTTP/1.1" 200 -
+2025-03-07 23:37:53,820 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:37:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-07 23:40:05,613 - mediassist_agent - INFO - Processing query: '45-year-old patient with persistent cough (3 weeks...' (Type: None)
+2025-03-07 23:40:06,910 - mediassist_agent - INFO - Router selected symptom agent for query: '45-year-old patient with persistent cough (3 weeks...'
+2025-03-07 23:40:08,356 - mediassist_agent - INFO - Found 4 similar records for category symptom, returning top 3
+2025-03-07 23:40:12,129 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:40:12] "POST /query HTTP/1.1" 200 -
+2025-03-07 23:40:29,501 - mediassist_agent - INFO - Processing query: 'Sharp chest pain on left side, worse when breathin...' (Type: None)
+2025-03-07 23:40:30,024 - mediassist_agent - INFO - Router selected clinical agent for query: 'Sharp chest pain on left side, worse when breathin...'
+2025-03-07 23:40:31,282 - mediassist_agent - INFO - Found 3 similar records for category clinical, returning top 3
+2025-03-07 23:40:35,688 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:40:35] "POST /query HTTP/1.1" 200 -
+2025-03-07 23:42:11,325 - mediassist_agent - INFO - Processing query: 'Check interactions: Lisinopril (20mg daily), Metfo...' (Type: None)
+2025-03-07 23:42:11,890 - mediassist_agent - INFO - Router selected drug agent for query: 'Check interactions: Lisinopril (20mg daily), Metfo...'
+2025-03-07 23:42:13,185 - mediassist_agent - INFO - Found 5 similar records for category drug, returning top 3
+2025-03-07 23:42:16,113 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:42:16] "POST /query HTTP/1.1" 200 -
+2025-03-07 23:42:48,250 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:42:48,253 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:42:48,253 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:42:48,253 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:42:48,253 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:42:48,336 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.44:5002
+2025-03-07 23:42:48,336 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 23:42:48,364 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:42:48,742 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:42:48,751 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:42:48,761 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:42:48,770 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:42:48,772 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:42:48,774 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:42:48,776 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:42:48,778 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:42:48,780 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:42:48,780 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:42:48,780 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:42:48,781 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:42:48,781 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:42:48,781 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:42:53,051 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:42:53,053 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:42:53,053 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:42:53,054 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:42:53,063 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:42:53,071 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:42:53,085 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:42:53,221 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:42:53] "GET / HTTP/1.1" 200 -
+2025-03-07 23:42:53,311 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:42:53] "GET /status HTTP/1.1" 200 -
+2025-03-07 23:42:53,491 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:42:53,501 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:42:53,508 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:42:53,517 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:42:53,520 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:42:53,521 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:42:53,522 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:42:53,524 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:42:53,525 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:42:53,526 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:42:53,526 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:42:53,526 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:42:53,527 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:42:53,527 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:42:59,421 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:42:59] "GET /status HTTP/1.1" 200 -
+2025-03-07 23:43:10,137 - mediassist_agent - INFO - Processing query: 'Sharp chest pain on left side, worse when breathin...' (Type: None)
+2025-03-07 23:43:11,402 - mediassist_agent - INFO - Router selected clinical agent for query: 'Sharp chest pain on left side, worse when breathin...'
+2025-03-07 23:43:12,829 - mediassist_agent - INFO - Found 3 similar records for category clinical, returning top 3
+2025-03-07 23:43:17,258 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:43:17] "POST /query HTTP/1.1" 200 -
+2025-03-07 23:43:47,426 - mediassist_agent - INFO - Processing query: 'Teenager with severe abdominal pain in right lower...' (Type: None)
+2025-03-07 23:43:47,975 - mediassist_agent - INFO - Router selected clinical agent for query: 'Teenager with severe abdominal pain in right lower...'
+2025-03-07 23:43:49,325 - mediassist_agent - INFO - Found 5 similar records for category clinical, returning top 3
+2025-03-07 23:43:54,023 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:43:54] "POST /query HTTP/1.1" 200 -
+2025-03-07 23:44:18,041 - mediassist_agent - INFO - Processing query: '6-year-old with high fever (102°F) for 3 days, red...' (Type: None)
+2025-03-07 23:44:18,610 - mediassist_agent - INFO - Router selected clinical agent for query: '6-year-old with high fever (102°F) for 3 days, red...'
+2025-03-07 23:44:20,105 - mediassist_agent - INFO - Found 3 similar records for category clinical, returning top 3
+2025-03-07 23:44:24,713 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:44:24] "POST /query HTTP/1.1" 200 -
+2025-03-07 23:44:52,471 - mediassist_agent - INFO - Processing query: 'Having high fever and cough...' (Type: None)
+2025-03-07 23:44:53,030 - mediassist_agent - INFO - Router selected symptom agent for query: 'Having high fever and cough...'
+2025-03-07 23:44:54,350 - mediassist_agent - ERROR - Error getting embedding: 502 Server Error: Bad Gateway for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2
+2025-03-07 23:44:54,351 - mediassist_agent - WARNING - Failed to get embedding for query
+2025-03-07 23:44:54,351 - mediassist_agent - INFO - No similar symptom information found for query: 'Having high fever and cough...', generating direct response
+2025-03-07 23:45:00,531 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 23:45:00] "POST /query HTTP/1.1" 200 -
+2025-03-07 23:52:46,257 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:52:46,267 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:52:46,270 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:52:49,951 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:53:18,858 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:53:18,860 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:53:18,861 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:53:18,861 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:53:18,861 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:53:18,918 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.44:5002
+2025-03-07 23:53:18,918 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 23:53:18,943 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:53:19,302 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:53:19,310 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:53:19,318 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:53:19,326 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:53:19,328 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:53:19,331 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:53:19,333 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:53:19,335 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:53:19,337 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:53:19,337 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:53:19,338 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:53:19,338 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:53:19,338 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:53:19,338 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:53:23,465 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:53:23,467 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:53:23,467 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:53:23,467 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:53:23,468 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:53:23,491 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:53:23,513 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:53:23,821 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:53:23,829 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:53:23,836 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:53:23,844 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:53:23,847 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:53:23,849 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:53:23,851 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:53:23,852 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:53:23,853 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:53:23,854 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:53:23,854 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:53:23,854 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:53:23,855 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:53:23,855 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:53:36,523 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:53:36,535 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:53:36,536 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:53:37,791 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:53:42,479 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:53:42,481 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:53:42,481 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:53:42,482 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:53:42,482 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:53:42,505 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:53:42,530 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:53:42,861 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:53:42,869 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:53:42,877 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:53:42,884 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:53:42,886 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:53:42,888 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:53:42,889 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:53:42,890 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:53:42,891 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:53:42,891 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:53:42,892 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:53:42,892 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:53:42,892 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:53:42,893 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:54:01,949 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:54:01,962 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:54:01,964 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:54:03,121 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:54:07,676 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:54:07,679 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:54:07,679 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:54:07,679 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:54:07,680 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:54:07,705 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:54:07,740 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:54:08,050 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:54:08,057 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:54:08,065 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:54:08,072 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:54:08,074 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:54:08,076 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:54:08,076 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:54:08,078 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:54:08,080 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:54:08,080 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:54:08,080 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:54:08,081 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:54:08,081 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:54:08,081 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:54:11,879 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:54:11,880 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:54:11,882 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:54:12,657 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:54:17,324 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:54:17,325 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:54:17,326 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:54:17,326 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:54:17,326 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:54:17,349 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:54:17,373 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:54:17,685 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:54:17,693 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:54:17,700 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:54:17,707 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:54:17,709 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:54:17,710 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:54:17,712 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:54:17,713 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:54:17,714 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:54:17,715 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:54:17,715 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:54:17,715 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:54:17,716 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:54:17,716 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:55:08,879 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:55:08,880 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:55:08,881 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:55:10,467 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:55:15,047 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:55:15,049 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:55:15,050 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:55:15,050 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:55:15,050 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:55:15,072 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:55:15,095 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:55:15,409 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:55:15,416 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:55:15,424 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:55:15,431 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:55:15,433 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:55:15,434 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:55:15,435 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:55:15,436 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:55:15,437 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:55:15,438 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:55:15,439 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:55:15,440 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:55:15,440 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:55:15,440 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:55:15,824 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:55:15,832 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:55:15,832 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:55:16,786 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:55:21,374 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:55:21,376 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:55:21,376 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:55:21,376 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:55:21,376 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:55:21,400 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:55:21,424 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:55:21,735 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:55:21,744 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:55:21,752 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:55:21,760 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:55:21,762 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:55:21,764 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:55:21,765 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:55:21,766 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:55:21,767 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:55:21,767 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:55:21,768 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:55:21,768 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:55:21,768 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:55:21,768 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:55:44,259 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:55:44,260 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:55:44,261 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:55:45,163 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:55:49,847 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:55:49,849 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:55:49,849 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:55:49,849 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:55:49,849 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:55:49,873 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:55:49,897 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:55:50,220 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:55:50,229 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:55:50,237 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:55:50,245 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:55:50,247 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:55:50,249 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:55:50,250 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:55:50,252 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:55:50,253 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:55:50,253 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:55:50,253 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:55:50,254 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:55:50,254 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:55:50,254 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:56:01,899 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:01,900 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:01,901 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:03,123 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:56:07,706 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:56:07,709 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:56:07,709 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:56:07,709 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:56:07,709 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:56:07,731 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:56:07,755 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:56:08,087 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:56:08,094 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:56:08,102 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:56:08,108 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:56:08,111 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:56:08,113 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:56:08,113 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:56:08,114 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:56:08,115 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:56:08,116 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:56:08,116 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:56:08,116 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:56:08,117 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:56:08,117 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:56:08,121 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:08,123 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:08,124 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:09,492 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:56:14,109 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:56:14,112 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:56:14,112 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:56:14,112 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:56:14,112 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:56:14,134 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:56:14,158 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:56:14,323 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:14,324 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:14,326 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:14,474 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:56:14,482 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:56:14,488 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:56:14,496 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:56:14,497 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:56:14,500 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:56:14,501 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:56:14,503 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:56:14,503 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:56:14,504 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:56:14,504 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:56:14,504 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:56:14,505 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:56:14,505 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:56:15,884 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:56:20,434 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:56:20,436 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:56:20,436 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:56:20,436 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:56:20,436 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:56:20,458 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:56:20,483 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:56:20,794 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:56:20,801 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:56:20,808 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:56:20,817 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:56:20,819 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:56:20,821 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:56:20,822 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:56:20,823 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:56:20,824 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:56:20,824 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:56:20,825 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:56:20,825 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:56:20,826 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:56:20,826 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:56:22,776 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:22,778 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:22,780 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:24,311 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:56:28,938 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:56:28,940 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:56:28,941 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:56:28,941 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:56:28,941 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:56:28,964 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:56:28,990 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:56:29,299 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:56:29,306 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:56:29,313 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:56:29,320 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:56:29,322 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:56:29,325 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:56:29,326 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:56:29,326 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:56:29,327 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:56:29,328 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:56:29,328 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:56:29,329 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:56:29,329 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:56:29,329 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:56:29,887 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:29,889 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:29,889 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:29,890 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:30,686 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:56:35,256 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:56:35,258 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:56:35,259 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:56:35,259 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:56:35,259 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:56:35,280 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:56:35,306 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:56:35,616 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:56:35,623 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:56:35,631 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:56:35,638 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:56:35,640 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:56:35,642 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:56:35,643 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:56:35,643 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:56:35,645 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:56:35,645 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:56:35,645 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:56:35,646 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:56:35,646 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:56:35,646 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:56:54,949 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:54,960 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:54,961 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:56:55,991 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:57:00,674 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:57:00,676 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:57:00,676 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:57:00,677 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:57:00,677 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:57:00,698 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:57:00,722 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:57:01,037 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:57:01,044 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:57:01,052 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:57:01,058 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:57:01,061 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:57:01,063 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:57:01,064 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:57:01,065 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:57:01,066 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:57:01,067 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:57:01,067 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:57:01,067 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:57:01,067 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:57:01,068 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:57:22,563 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:57:22,574 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:57:22,575 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:57:23,451 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-07 23:57:28,202 - mediassist_agent - INFO - Starting Flask application
+2025-03-07 23:57:28,205 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-07 23:57:28,205 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-07 23:57:28,205 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-07 23:57:28,206 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-07 23:57:28,227 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 23:57:28,251 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-07 23:57:28,562 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-07 23:57:28,571 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-07 23:57:28,581 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-07 23:57:28,590 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-07 23:57:28,593 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-07 23:57:28,595 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-07 23:57:28,597 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-07 23:57:28,598 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-07 23:57:28,599 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-07 23:57:28,600 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-07 23:57:28,600 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-07 23:57:28,601 - mediassist_agent - INFO - Registered 10 agents
+2025-03-07 23:57:28,601 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-07 23:57:28,601 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-07 23:58:45,599 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:58:45,600 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:58:45,601 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-07 23:58:46,573 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 00:00:32,729 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 00:00:32,732 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 00:00:32,732 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 00:00:32,733 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 00:00:32,733 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 00:00:32,793 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.44:5002
+2025-03-08 00:00:32,794 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 00:00:32,815 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 00:00:33,192 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 00:00:33,200 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 00:00:33,211 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 00:00:33,221 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 00:00:33,224 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 00:00:33,225 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 00:00:33,227 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 00:00:33,229 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 00:00:33,229 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 00:00:33,229 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 00:00:33,231 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 00:00:33,231 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 00:00:33,231 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 00:00:33,232 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 00:00:39,057 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 00:00:39,059 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 00:00:39,061 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 00:00:39,061 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 00:00:39,062 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 00:00:39,090 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 00:00:39,127 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-08 00:00:39,536 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 00:00:39,549 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 00:00:39,564 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 00:00:39,580 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 00:00:39,582 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 00:00:39,588 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 00:00:39,591 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 00:00:39,593 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 00:00:39,594 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 00:00:39,595 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 00:00:39,595 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 00:00:39,595 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 00:00:39,597 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 00:00:39,597 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 00:01:00,800 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:01:00] "GET / HTTP/1.1" 200 -
+2025-03-08 00:01:00,879 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:01:00] "GET /status HTTP/1.1" 200 -
+2025-03-08 00:01:10,105 - mediassist_agent - INFO - Processing query: '6-year-old with high fever (102°F) for 3 days, red...' (Type: None)
+2025-03-08 00:01:12,685 - mediassist_agent - INFO - Router selected clinical agent for query: '6-year-old with high fever (102°F) for 3 days, red...'
+2025-03-08 00:01:15,279 - mediassist_agent - INFO - Found 3 similar records for category clinical, returning top 3
+2025-03-08 00:01:20,193 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:01:20] "POST /query HTTP/1.1" 200 -
+2025-03-08 00:02:06,487 - mediassist_agent - INFO - Processing query: '6-year-old with high fever (102°F) for 3 days, red...' (Type: None)
+2025-03-08 00:02:07,128 - mediassist_agent - INFO - Router selected clinical agent for query: '6-year-old with high fever (102°F) for 3 days, red...'
+2025-03-08 00:02:08,556 - mediassist_agent - INFO - Found 3 similar records for category clinical, returning top 3
+2025-03-08 00:02:13,342 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:02:13] "POST /query HTTP/1.1" 200 -
+2025-03-08 00:05:31,829 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 00:05:31,830 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 00:05:31,832 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 00:05:44,818 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 00:05:44,821 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 00:05:44,821 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 00:05:44,822 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 00:05:44,822 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 00:05:44,885 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.44:5002
+2025-03-08 00:05:44,886 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 00:05:44,913 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 00:05:45,364 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 00:05:45,375 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 00:05:45,387 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 00:05:45,412 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 00:05:45,419 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 00:05:45,430 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 00:05:45,437 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 00:05:45,440 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 00:05:45,444 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 00:05:45,444 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 00:05:45,445 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 00:05:45,446 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 00:05:45,446 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 00:05:45,447 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 00:05:51,491 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 00:05:51,494 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 00:05:51,494 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 00:05:51,494 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 00:05:51,495 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 00:05:51,522 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 00:05:51,552 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-08 00:05:51,690 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:05:51] "GET / HTTP/1.1" 200 -
+2025-03-08 00:05:52,025 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 00:05:52,033 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 00:05:52,043 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 00:05:52,051 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 00:05:52,055 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 00:05:52,059 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 00:05:52,059 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 00:05:52,061 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 00:05:52,061 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 00:05:52,062 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 00:05:52,062 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 00:05:52,062 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 00:05:52,064 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 00:05:52,064 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 00:05:52,457 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:05:52] "GET /status HTTP/1.1" 200 -
+2025-03-08 00:05:53,641 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:05:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-08 00:05:55,345 - mediassist_agent - INFO - Processing query: '6-year-old with high fever (102°F) for 3 days, red...' (Type: None)
+2025-03-08 00:05:57,578 - mediassist_agent - INFO - Router selected clinical agent for query: '6-year-old with high fever (102°F) for 3 days, red...'
+2025-03-08 00:05:59,066 - mediassist_agent - INFO - Found 3 similar records for category clinical, returning top 3
+2025-03-08 00:06:04,362 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:06:04] "POST /query HTTP/1.1" 200 -
+2025-03-08 00:06:23,479 - mediassist_agent - INFO - Processing query: 'Having fever and cough...' (Type: None)
+2025-03-08 00:06:24,080 - mediassist_agent - INFO - Router selected symptom agent for query: 'Having fever and cough...'
+2025-03-08 00:06:25,400 - mediassist_agent - INFO - Found 4 similar records for category symptom, returning top 3
+2025-03-08 00:06:29,271 - mediassist_agent - WARNING - Response from auto agent seems too short, adding disclaimer
+2025-03-08 00:06:29,273 - mediassist_agent - ERROR - Error in reflection agent: unsupported operand type(s) for +=: 'dict' and 'str'
+2025-03-08 00:06:29,278 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:06:29] "POST /query HTTP/1.1" 200 -
+2025-03-08 00:07:09,031 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:07:09] "GET / HTTP/1.1" 200 -
+2025-03-08 00:07:09,171 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:07:09] "GET /status HTTP/1.1" 200 -
+2025-03-08 00:07:13,977 - mediassist_agent - INFO - Processing query: '6-year-old with high fever (102°F) for 3 days, red...' (Type: None)
+2025-03-08 00:07:14,696 - mediassist_agent - INFO - Router selected clinical agent for query: '6-year-old with high fever (102°F) for 3 days, red...'
+2025-03-08 00:07:15,765 - mediassist_agent - INFO - Found 3 similar records for category clinical, returning top 3
+2025-03-08 00:07:20,277 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:07:20] "POST /query HTTP/1.1" 200 -
+2025-03-08 00:07:36,219 - mediassist_agent - INFO - Processing query: 'having fever and cough...' (Type: None)
+2025-03-08 00:07:36,768 - mediassist_agent - INFO - Router selected symptom agent for query: 'having fever and cough...'
+2025-03-08 00:07:37,857 - mediassist_agent - INFO - Found 4 similar records for category symptom, returning top 3
+2025-03-08 00:07:42,714 - mediassist_agent - WARNING - Response from auto agent seems too short, adding disclaimer
+2025-03-08 00:07:42,715 - mediassist_agent - ERROR - Error in reflection agent: unsupported operand type(s) for +=: 'dict' and 'str'
+2025-03-08 00:07:42,718 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:07:42] "POST /query HTTP/1.1" 200 -
+2025-03-08 00:10:26,592 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:10:26] "GET / HTTP/1.1" 200 -
+2025-03-08 00:10:26,681 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:10:26] "GET /status HTTP/1.1" 200 -
+2025-03-08 00:10:40,313 - mediassist_agent - INFO - Processing query: 'having fever and cough...' (Type: None)
+2025-03-08 00:10:41,042 - mediassist_agent - INFO - Router selected symptom agent for query: 'having fever and cough...'
+2025-03-08 00:10:42,477 - mediassist_agent - INFO - Found 4 similar records for category symptom, returning top 3
+2025-03-08 00:10:46,570 - mediassist_agent - WARNING - Response from auto agent seems too short, adding disclaimer
+2025-03-08 00:10:46,571 - mediassist_agent - ERROR - Error in reflection agent: unsupported operand type(s) for +=: 'dict' and 'str'
+2025-03-08 00:10:46,576 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:10:46] "POST /query HTTP/1.1" 200 -
+2025-03-08 00:11:58,719 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 00:11:58,721 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 00:11:58,723 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 00:12:02,469 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 00:12:10,191 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 00:12:10,194 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 00:12:10,194 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 00:12:10,195 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 00:12:10,195 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 00:12:10,230 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 00:12:10,264 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-08 00:12:10,864 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 00:12:10,875 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 00:12:10,888 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 00:12:10,900 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 00:12:10,904 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 00:12:10,908 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 00:12:10,912 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 00:12:10,915 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 00:12:10,918 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 00:12:10,919 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 00:12:10,920 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 00:12:10,920 - mediassist_agent - INFO - Registered 9 agents
+2025-03-08 00:12:10,921 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 00:12:10,921 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 00:12:13,867 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:12:13] "GET / HTTP/1.1" 200 -
+2025-03-08 00:12:14,945 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:12:14] "GET /status HTTP/1.1" 200 -
+2025-03-08 00:12:15,843 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 00:12:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-08 00:19:49,390 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\booking.py', reloading
+2025-03-08 00:19:49,393 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\booking.py', reloading
+2025-03-08 00:19:51,750 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:28:11,011 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:28:11,015 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:28:11,015 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:28:11,015 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:28:11,016 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:28:11,151 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.44:5002
+2025-03-08 03:28:11,151 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 03:28:11,170 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:28:11,566 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:28:11,575 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:28:11,583 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:28:11,591 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:28:11,593 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:28:11,597 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:28:11,599 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:28:11,601 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:28:11,603 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:28:11,603 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:28:11,603 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:28:11,604 - mediassist_agent - ERROR - Error in background initialization: name 'datetime' is not defined
+2025-03-08 03:28:15,732 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:28:15,734 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:28:15,735 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:28:15,735 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:28:15,736 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:28:15,756 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 03:28:15,781 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-08 03:28:16,114 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:28:16,122 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:28:16,128 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:28:16,135 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:28:16,137 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:28:16,139 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:28:16,141 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:28:16,142 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:28:16,144 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:28:16,144 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:28:16,144 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:28:16,145 - mediassist_agent - ERROR - Error in background initialization: name 'datetime' is not defined
+2025-03-08 03:29:38,915 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:29:38,916 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:29:38,918 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:29:40,371 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:30:02,295 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:30:02,296 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:30:02,296 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:30:02,298 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:30:02,298 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:30:02,408 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.44:5002
+2025-03-08 03:30:02,409 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 03:30:02,435 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:30:02,712 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:30:02,720 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:30:02,727 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:30:02,736 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:30:02,738 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:30:02,740 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:30:02,741 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:30:02,742 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:30:02,743 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:30:02,744 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:30:02,744 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:30:02,748 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 03:30:02,748 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 03:30:02,749 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 03:30:07,041 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:30:07,044 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:30:07,045 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:30:07,045 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:30:07,046 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:30:07,076 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 03:30:07,109 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-08 03:30:07,459 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:30:07,468 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:30:07,476 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:30:07,483 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:30:07,485 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:30:07,488 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:30:07,489 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:30:07,490 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:30:07,491 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:30:07,491 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:30:07,492 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:30:07,494 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 03:30:07,496 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 03:30:07,496 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 03:30:41,901 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:30:41,902 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:30:41,903 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:30:42,486 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:30:47,077 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:30:47,080 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:30:47,080 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:30:47,081 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:30:47,081 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:30:47,102 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 03:30:47,127 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-08 03:30:47,504 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:30:47,513 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:30:47,521 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:30:47,529 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:30:47,531 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:30:47,533 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:30:47,534 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:30:47,535 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:30:47,536 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:30:47,536 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:30:47,537 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:30:47,540 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 03:30:47,540 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 03:30:47,540 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 03:31:23,023 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:31:23,025 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:31:23,027 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:31:23,027 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:31:23,027 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:31:23,138 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.1.44:5000
+2025-03-08 03:31:23,138 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 03:31:23,164 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:31:23,415 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:31:23,423 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:31:23,430 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:31:23,438 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:31:23,440 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:31:23,442 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:31:23,443 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:31:23,444 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:31:23,455 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:31:23,456 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:31:23,456 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:31:23,459 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 03:31:23,460 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 03:31:23,461 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 03:31:27,942 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:31:27,944 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:31:27,944 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:31:27,945 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:31:27,945 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:31:27,968 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 03:31:27,992 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-08 03:31:28,356 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:31:28,363 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:31:28,371 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:31:28,378 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:31:28,380 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:31:28,398 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:31:28,399 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:31:28,401 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:31:28,402 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:31:28,402 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:31:28,403 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:31:28,405 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 03:31:28,406 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 03:31:28,406 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 03:32:23,516 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:32:23,517 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:32:23,519 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:32:24,269 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:32:29,177 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:32:29,179 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:32:29,180 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:32:29,180 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:32:29,180 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:32:29,205 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 03:32:29,233 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-08 03:32:29,366 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:32:29] code 400, message Bad request syntax ("\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03|Þ6'á\x1a{\x957\x8bìZcf\x8dßcè6\x86/\x9aÅc")
+2025-03-08 03:32:29,366 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:32:29] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03|Þ6'á\x1a{\x957\x8bìZcf\x8dßcè6\x86/\x9aÅc[0m" 400 -
+2025-03-08 03:32:29,380 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:32:29] "GET / HTTP/1.1" 200 -
+2025-03-08 03:32:29,668 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:32:29,678 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:32:29,688 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:32:29,698 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:32:29,701 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:32:29,704 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:32:29,706 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:32:29,708 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:32:29,709 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:32:29,709 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:32:29,709 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:32:29,712 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 03:32:29,714 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 03:32:29,715 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 03:32:35,974 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:32:35,982 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:32:35,991 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:32:37,312 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:32:42,009 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:32:42,011 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:32:42,011 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:32:42,012 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:32:42,012 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:32:42,032 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 03:32:42,056 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-08 03:32:42,423 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:32:42,430 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:32:42,437 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:32:42,444 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:32:42,447 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:32:42,449 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:32:42,450 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:32:42,451 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:32:42,452 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:32:42,453 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:32:42,453 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:32:42,456 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 03:32:42,456 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 03:32:42,456 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 03:33:00,060 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:33:00,060 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:33:00,062 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:33:01,625 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:33:06,378 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:33:06,380 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:33:06,381 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:33:06,381 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:33:06,381 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:33:06,402 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 03:33:06,426 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-08 03:33:06,732 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:33:06,739 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:33:06,748 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:33:06,761 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:33:06,765 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:33:06,768 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:33:06,770 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:33:06,771 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:33:06,774 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:33:06,774 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:33:06,775 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:33:06,776 - mediassist_agent - INFO - Registered 9 agents
+2025-03-08 03:33:06,776 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 03:33:06,776 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 03:35:22,606 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\booking.py', reloading
+2025-03-08 03:35:22,617 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\booking.py', reloading
+2025-03-08 03:35:22,618 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\booking.py', reloading
+2025-03-08 03:35:23,478 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:36:37,600 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:36:37,603 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:36:37,603 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:36:37,603 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:36:37,604 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:36:37,661 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.44:5000
+2025-03-08 03:36:37,662 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 03:36:37,683 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:36:37,963 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:36:37,971 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:36:37,979 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:36:37,986 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:36:37,989 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:36:37,991 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:36:37,992 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:36:37,993 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:36:37,995 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:36:37,995 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:36:37,996 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:36:37,998 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 03:36:37,999 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 03:36:37,999 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 03:36:42,198 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:36:42,200 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:36:42,200 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:36:42,200 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:36:42,200 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:36:42,221 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 03:36:42,245 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-08 03:36:42,353 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:42] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x07¢jj\x00\x00\x00')
+2025-03-08 03:36:42,354 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:42] code 400, message Bad request version ('1s')
+2025-03-08 03:36:42,354 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:42] "[31m[1m\x16\x03\x01\x08\x0f\x01\x00\x08\x0b\x03\x03T\x03ã2¢ë0Á\x8c¦\x11\x96?îA/@î§\x12\x95\x06|GEÁ\x96l¢YYY 0ð%0ùC\x0d\x01asâ»\x03¼ç\x1484\x05Çûúñ^Ù@ä\x81*ô\x82/\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x07¢jj\x00\x00\x00[0m" 400 -
+2025-03-08 03:36:42,354 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:42] "[31m[1m\x16\x03\x01\x07¯\x01\x00\x07«\x03\x03·\x9e\x13¶\x9cì_u\x94xBüzK\x88a¹jE§ì·y\x97ØÃË3~OÓ[ \x00A\x13{\x89\x9aú'v×\x03ü0­\x1aíÇWr\x16\x04hüVSMîæ`¿\x93Z\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x07B\x1a\x1a\x00\x00\x00#\x00\x00\x003\x04ï\x04íºº\x00\x01\x00\x11ì\x04À©W#³t\x941¶>\x1c\x98\x9bg{\x8d©,\x8c\x0e\x8aÈÞ(c/8\x0e\x851s[0m" 400 -
+2025-03-08 03:36:42,358 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:42] code 400, message Bad request version ('ú¬oÈ¸ô¨\x15wµ\x9c\x84Õ3\x90Ì\x8e\x02Ü\x89ý')
+2025-03-08 03:36:42,358 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:42] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x8af²S\x99N0F\x896èoÉ\x92\x13sRkW(\x90»PÛ\x99\x84QªA\x1e9N òH×\x1d²S±¤ú±Ü\x0ds$lÿ\x0cõ\x9düºêåë\x86<`\x16V]\x84\x19\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06szz\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x003\x04ï\x04íªª\x00\x01\x00\x11ì\x04Àª\x88xLA\x15%â95Â^\x12Ò\x8eñ³ªã\x99ZãP\x90\x9f\x96\x0c@K"ÀT\x1eÎ"3xÌQ\x8f\x06\x8b`ÕYý\x1a\x17æ\x88G\x1fú¬oÈ¸ô¨\x15wµ\x9c\x84Õ3\x90Ì\x8e\x02Ü\x89ý[0m" 400 -
+2025-03-08 03:36:42,358 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:42] code 400, message Bad request syntax ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03¿Æð²¸')
+2025-03-08 03:36:42,360 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:42] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03¿Æð²¸[0m" 400 -
+2025-03-08 03:36:42,575 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:36:42,583 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:36:42,591 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:36:42,598 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:36:42,600 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:36:42,602 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:36:42,604 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:36:42,605 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:36:42,605 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:36:42,607 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:36:42,607 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:36:42,610 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 03:36:42,610 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 03:36:42,611 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 03:36:45,187 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:45] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93')
+2025-03-08 03:36:45,188 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:45] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03?ß¬\x98\x91±Aû\x9e\x03uÕï\x04\x02ã¶\x7f\x90A\x95BMåu×%\x01Ýz½\x08 wP{J*\x98ïÜT¥·eõx\x92\x1b\x8dcÄ\x91\x0dTß\x04:2áôøÅZ\x88\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93[0m" 400 -
+2025-03-08 03:36:45,189 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:45] code 400, message Bad request version ('×\x9fFÜt\x08<\x87\x01ºúKHÝ\x00S-')
+2025-03-08 03:36:45,190 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:45] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03Ìë\x04÷Àr£8+$!\x81÷îO\x9cîÜTÙb>\x15bßô@\x02Ã à} :À#a\x15GJ_Iró!\x8481WÏ\x13\x97\x88bÙÝÉ¡\x06Øë~8\x166\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x8a\x8a\x00\x00\x00#\x00\x00\x00+\x00\x07\x06ZZ\x03\x04\x03\x03DÍ\x00\x05\x00\x03\x02h2\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1þ\x0d\x01\x1a\x00\x00\x01\x00\x01\x7f\x00 \x96\x1fÜOÉ\x16\x16\x03Å.*ëiøñk6( ^»ñ?Ký\x98\x05Zií\x00E\x00ð\x85ä¼ßXkS\x92\x02ûmÐR\x1aËã\\\x9e\x85¡É#Ú\x14\x8f<\x9e×\x0f§ÑW6\x1b=ÙÔ\x91&÷P\x13{\x8d¿¾g\x08¤\x7fÍnèÍjRP\x1e¥ybüV\x93Àqe\x8bW]ï\x97\x15£\x09¥?®ç¦\x01òIåÃ­ó">ÓÚûÕ{hÕÚ\x09\x0e?áiûÂ\x17QGC·wS^ ±©8\\t9hìt[BÃ@é¼¡2C\x91Ã)1pæ ×\x9fFÜt\x08<\x87\x01ºúKHÝ\x00S-[0m" 400 -
+2025-03-08 03:36:45,191 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:45] code 400, message Bad request version ('%¾s\x19\x19o\x9bo%Ô:Ïpj§\x07\x95ùd\x96oå%`*Ì\x18\x18XUS-ü')
+2025-03-08 03:36:45,193 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:45] code 400, message Bad request version ('å²ñÝ°\x8fsÚc')
+2025-03-08 03:36:45,193 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:45] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03+§\x86]\x83/32;;Ë\x1f\x9ew\x05Ò\x97x|eËõmJô¾®-¥¦U  \x7fû·Úí\x7f½`¿\x7f\x85\x16»\x85\x19%ÔWc·\x0e\x87\x01e\x0f%¸\x0f(Ö_ð\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063zz\x00\x00\x00\x12\x00\x00\x00\x17\x00\x00\x00-\x00\x02\x01\x01\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00#\x00\x00\x003\x04ï\x04íÊÊ\x00\x01\x00\x11ì\x04ÀlQ\x00Oº\x12#k\x859&W&\x94\x8bWºÅÍ\x02\x97s\x09(L!\x0d\x9avtuá±uX\x97&B\x15gcÉU;ÄÞ\x1b\x82Ã(+;²\x94\x8e#Á0U_\x97ü û:\x04z'\x9e\x81×)\x0eüpä¹Ìx¶½y;XÍ\x18\x96ù·½\x0c»mÍ;wø¤¢\x0b\x06gëLe\x06¶ »§<\x8e×Ha³\x93\x9aº!O\x02\x06\x966w\x94\x0ca\x1e%¾s\x19\x19o\x9bo%Ô:Ïpj§\x07\x95ùd\x96oå%`*Ì\x18\x18XUS-ü[0m" 400 -
+2025-03-08 03:36:45,193 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:45] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03á\x06\x9e\x8dx\x9b{%>*aAiDká#\x82¢\x95äE\x1a)I¾\x04`?KñO Bl\x00<«¿V\x92¿¦~\x94\x98¥`êEªâ\x9ce>4\x14Þ\x12\x9b.\x02¤\x04j\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93::\x00\x00\x00\x1b\x00\x03\x02\x00\x02ÿ\x01\x00\x01\x00\x00#\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06êê\x03\x04\x03\x03\x00\x17\x00\x00þ\x0d\x01\x1a\x00\x00\x01\x00\x01¬\x00 ­\x83Ôrhdï<=\x97n\x91æ\x86Ö\x1eå²ñÝ°\x8fsÚc[0m" 400 -
+2025-03-08 03:36:46,171 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:46] code 400, message Bad request version ('\x02h2\x08http/1.1DÍ\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06ÊÊ\x03\x04\x03\x03\x00')
+2025-03-08 03:36:46,172 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:46] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03sâ[{y\x00¿\x91×pl\x9e«¤\x97+06\x8eú_ø~Ô|Ï¿\x0ck?âÚ »<=`\x81RÁ\x11\x8a\x87\x1c\x86\x88BuÐ\x17´·\x92}²æ&ÔBT³\x8ezeð\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06SZZ\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1DÍ\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06ÊÊ\x03\x04\x03\x03\x00[0m" 400 -
+2025-03-08 03:36:46,172 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:46] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+2025-03-08 03:36:46,172 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:46] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x06áK\x9fË¦×GZ°$äö\x9cýªâãC\x80.\x98½¿\x99[0m" 400 -
+2025-03-08 03:36:46,176 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:46] code 400, message Bad request version ('´µ±Rt\x94Î©\x8f\x15p\x99bÆ¼ãºevä\x88.<NMä}ñ\x11\x97Õ|Y\x8dR@,\x18!Tègò¤\x95Ë\x8a^`[;\x86\x81l×¤')
+2025-03-08 03:36:46,177 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:46] code 400, message Bad request version ('wG\x89÷S1³/0ÚÆ\'"AÅñMÛpúSbèîZõ<òya')
+2025-03-08 03:36:46,177 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:46] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03BÑ*äÎÉ\x81\x8fUµµÀ¸¿Gö\\\x05Û&\x11/\x88\x08÷½\x86ûAÝµ\x10 ò<ÝMJ\x84Þ¡Õ{xZ\x0b)¼(ôà}îÉÒ5{­Ñ\x84yîÖÒï\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S\x1a\x1a\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x0b\x00\x02\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x1b\x00\x03\x02\x00\x02DÍ\x00\x05\x00\x03\x02h2\x003\x04ï\x04í\x9a\x9a\x00\x01\x00\x11ì\x04À\x91T\x98¸l&t\\ÌB¥\x0d\x87@Æã¹\x84·ð+ñù\x09\x89G\x1dDëÈ\x7fH}\x81(·ÙÚ\x1c­a\x0cØ5\x12\x87\x164\x8cs]\x02\x10¿kùo\x04"\x9c ¥\x94\x8dÐ(\x1a(¸Ó¼Æ\x15Ü\x1aëÙwy×\x16(Úm|µ¢i\x92~v\x91\x93¯g\x81ÃÂÉX;wW{&\x14!]Ã\x9c©"\x80¯F\x8a\x0eéJËÃ\x8ac\x1dG\x09´µ±Rt\x94Î©\x8f\x15p\x99bÆ¼ãºevä\x88.<NMä}ñ\x11\x97Õ|Y\x8dR@,\x18!Tègò¤\x95Ë\x8a^`[;\x86\x81l×¤[0m" 400 -
+2025-03-08 03:36:46,177 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:46] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03-¬\x1d\x9d6HBÜÚñ}§r\x03l$\x8dtFíúÌóe \x0d\x8f\x04\x11\x19R\x85 wG\x89÷S1³/0ÚÆ'"AÅñMÛpúSbèîZõ<òya[0m" 400 -
+2025-03-08 03:36:49,372 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:49] code 400, message Bad request version ('ÐðÆ)#\x8e«\x12¸$=+E\x16¥ô\x10ºvs\x8e')
+2025-03-08 03:36:49,372 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:49] code 400, message Bad request syntax ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03é&q\x84g')
+2025-03-08 03:36:49,373 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:49] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03ðWrG\x1f\x86pÄAÚ{Ó8=ÎGLA\x9d .ý³E\x88£N*þø`Õ ¤HÈ\x0bAbb\x10Þò\x04Ã< aj M÷ìÖø\x0cAýp"\x9f\x8a\x83Þ½\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06SZZ\x00\x00\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03\x00#\x00\x00þ\x0d\x00Ú\x00\x00\x01\x00\x013\x00 ÐðÆ)#\x8e«\x12¸$=+E\x16¥ô\x10ºvs\x8e[0m" 400 -
+2025-03-08 03:36:49,373 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:49] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03é&q\x84g[0m" 400 -
+2025-03-08 03:36:49,377 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:49] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+2025-03-08 03:36:49,377 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:49] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03¶°¼')
+2025-03-08 03:36:49,379 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:49] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03"ì\x8bë\x9eÌsÚ\x1bù6f\x91atù\x9bW1ì\x92\x866g\x0c\x84Þx\x8b¼-å ë»lÄÝ\x96mÿ<ö\x1b\x9a)ãû`\x9d\x12#]ú*(\x8a9\x105\x1e\x86/hø\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sJJ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00[0m" 400 -
+2025-03-08 03:36:49,379 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:49] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03¶°¼\x1cN&¤!¢Ó\x92|\\c{?TT]\x1aBè÷½éÞ\x8fù+F[0m" 400 -
+2025-03-08 03:36:50,658 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:50] code 400, message Bad request version ('\x00\x02\x01\x00\x00+\x00\x07\x06ºº\x03\x04\x03\x03\x00\x12\x00\x00\x00-\x00\x02\x01\x01\x00')
+2025-03-08 03:36:50,659 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:50] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03Yþ½ØN]·òL\x09·\x1fÒÓ\x97ò~ÃæpGóÊ\x96\x91D<â+$\x1aÒ \x9b\x86ç³ÃÍzÝ\x9e«\x09ÿ7\x11*Ð¢OGùÏÔ\x00\x0b\x93¥©t\x1d3\x7fn\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063êê\x00\x00\x00\x0b\x00\x02\x01\x00\x00+\x00\x07\x06ºº\x03\x04\x03\x03\x00\x12\x00\x00\x00-\x00\x02\x01\x01\x00[0m" 400 -
+2025-03-08 03:36:50,661 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:50] code 400, message Bad request version ('\x91y¢PÄ&¨\x99·n\x10{D![/\x95a')
+2025-03-08 03:36:50,661 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:50] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03%\x87\x18\\/ð\x04\x04O*>\x92Ô¦æ6\x1cÄP\x15]a\x7fCDÜ½û\x9aÅ³! \x83\x1c_áÚµj\x13Ç\x13÷«\x9a[§ª×ýi¬XL\x06\x0dÌ\x8fê©ZH\x8c\x87\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063jj\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00#\x00\x00\x003\x04ï\x04í\x9a\x9a\x00\x01\x00\x11ì\x04ÀB#e\x1d\x81\x83\x12Á*\x96ûQ!\x06\x111C\x8fé\\­Is\x03\x97T\x1c¬B5i5\x81ùé\x8a\x09\x019h¤\x1dÇÙJ\x1cBÁöâ_ægÍ\x03Ò\x1dñ!¨<\x89MÇÀ«Tj]zr¡JØ\x18Ãj£ºÓJµ\x0cºv&/@£w\x82FO\x84\x1c\x91y¢PÄ&¨\x99·n\x10{D![/\x95a[0m" 400 -
+2025-03-08 03:36:50,663 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:50] code 400, message Bad request version ('\x11Ó\x15ûÆ?')
+2025-03-08 03:36:50,664 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:50] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03`.\x8cz\x1b?¦@ØC{·zf·\x9e»1)\x82áZÍã&:Ñ¶¢ö\x8f» G\x0cvz&\x95\x1b\x0c\x92*"äº\x1bßc\x9eÙgÞh\x17\x0c\x1c\x11Ó\x15ûÆ?[0m" 400 -
+2025-03-08 03:36:50,665 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:50] code 400, message Bad request version ('&\x81}\\w\x19\x12KÎì\x88¸ÅFô:')
+2025-03-08 03:36:50,666 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:50] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03öj\x0d\x14Ñ0«á\x04I\x99\x9aÛ+\x07[)\x8f#3ùU<Øá§Ì¶¡9I] ØïÞ\x80·\x1b\x14#^\x93©8\x1eIV\x92"HÎ\x07d\x99Wib|)K^Ë#¹\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sêê\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x1b\x00\x03\x02\x00\x02\x00\x12\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x0b\x00\x02\x01\x00þ\x0d\x00ú\x00\x00\x01\x00\x01"\x00 Âök¬G÷¼mÅET\x17\x1fV\x98\x9f¼@¤OC:Ö\x1bíL\x07Sé¤3j\x00ÐððX8R\x8e\x91e¬¶\x01\x8c©¯ÍjúÁ)\x96Øõÿ2«À\x02*c×¬ÙXö§\x92C\x964\x0eâYÊ(UKU\x89\x06Ýb+zãEÙdy¤Gö;¬P\x11<h¢\x13ïÐ\x92\x90ò/\x08zÜ»qp\x1ef\x9cè®ô\\Ê,Mï\x1a\x9f^a2«Q7¤Ø7\x0e\x09þðl\x87\x8a\x1dú\x8anÅ;0\x8f\x8dÛþm\x8b:x5ë\x8f\x00¸\x1f?ß\x8bÆ¼³¿R\x1c\x91\x17\x08Ðï\x81\x84Ä\x9f\x0b&\x81}\\w\x19\x12KÎì\x88¸ÅFô:[0m" 400 -
+2025-03-08 03:36:50,798 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:50] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2025-03-08 03:36:50,799 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:50] code 400, message Bad request version ('\x87âGö\x9b«Ûz1vq>\x0fþõ\x81Û¶Dy²$PT\x91X¢òF!òn\x00ð\x91:\x9c$3Þ%Ä°&CAJ¯u\x16bßbx~¥"M6Íç²2\x8d\x03\x80\xad#\x14\x03')
+2025-03-08 03:36:50,799 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:50] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03Fn£V\x1a\x9f\x1fÊW¢tÅ\x1e\x9bk\x17ßÀMØÿ5±Ë~\x8bOjl\x80ã¸ Á\x09\x0c\x887ôG\x18\x87j©Öã1µ¦\x1d¸iÿø^\x89ïgAÛ«à\x9a\x1et\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S::\x00\x00þ\x0d\x00Ú\x00\x00\x01\x00\x01Ï\x00 \x89\x95\x8aùfx\x12\x87)yÂ\x82çæ\x92=\x94){k\x937àqw 6Ð`<ÀB\x00°QÂ\x11Æ3èÐ\x1aüåm\x1eMLÌâ¯×Ä;\x85Øõd$#Iy+AµÕ0°Ì1ä\x85\\L\x09\x15\x8aî:\x1a³-]¹T´\x97¢JU?\x1eÄì¹ªcjHÇr!DÄSiEàÞ\x0d\x83cdD\x9f¨l6óÇø­(Õ½\x81ÑØz[à\x97h\x0d\x93FÞô\x82*\x92 \\b\x98a\x90\x11ò\x8bqÈ$9ÿ%êt\x84à\x1b¨§\x9a²ÿC\x9bÐú³\x0d¾Ã²^ImÁìÔw\x89ú!d\x1aâ`\x04Ñá\x87ãÁØª\x0dû×\x1cÇ×YkÜ©§{\x95\x00\x05\x00\x05\x01\x00\x00\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x12\x00\x00\x00\x17\x00\x00\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2025-03-08 03:36:50,800 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:50] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03ç\x84>\x05\x9aì\x84Ð;xQuk_\x08Y\x04ã\x95\x16\x0c\x12\x09)"\x1fã®ªC\x14Å Ê\x04¸i2b\x98~=9ó=?\x14¥²ù"È\x9f\x05Ó²\x11\x94Á\x14Ýmb\x8ft\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ÊÊ\x00\x00ÿ\x01\x00\x01\x00þ\x0d\x01\x1a\x00\x00\x01\x00\x01\x07\x00 \x87âGö\x9b«Ûz1vq>\x0fþõ\x81Û¶Dy²$PT\x91X¢òF!òn\x00ð\x91:\x9c$3Þ%Ä°&CAJ¯u\x16bßbx~¥"M6Íç²2\x8d\x03\x80­#\x14\x03[0m" 400 -
+2025-03-08 03:36:50,803 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:50] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x03ÚËñ\x19ç|Ylq{6ßh\x0e\x7f^È´P,,É÷ÌtvçIíÊÎ')
+2025-03-08 03:36:50,804 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:50] code 400, message Bad request version ('Ê')
+2025-03-08 03:36:50,804 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:50] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x03ÚËñ\x19ç|Ylq{6ßh\x0e\x7f^È´P,,É÷ÌtvçIíÊÎ \x19]õ\x19R¿ëËl.«ñU¾\x15ÜjC¶g\x05Ú-[0m" 400 -
+2025-03-08 03:36:50,804 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:50] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x81\x89\x91tÿo9m¹á]È\x06½3Ç\x91A\x16Î\\ g,\x08\x84á\x1e\x10Ö\x94ì \x83òÜç\x87\x7fÜ\x93\\À\x1f¹\x89é-?%«{ËY/Ý¬e\x85Z\x0f Ê\x0b[0m" 400 -
+2025-03-08 03:36:50,958 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:50] code 400, message Bad request version ('!¯ä*Ç^òCo\x15\x9fi')
+2025-03-08 03:36:50,959 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:50] code 400, message Bad request version ('¬ô÷×\x99î>¼G\x11îj;\x80ç\x81eá~üÌÓ')
+2025-03-08 03:36:50,959 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:50] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03ªWÐ¶\x18qd`» úä\x8d|"¨\x1f\x86­FÜ5A\x1b¿¦¦\x19ëþ©B \x80b\x03\x9f\x13\x7fúb\x99ÁÜY\x9f\x0d«s"ØøË §\x80r3õ\x09³VÇ'õ\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S::\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01ÿ\x01\x00\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00+\x00\x07\x06ZZ\x03\x04\x03\x03DÍ\x00\x05\x00\x03\x02h2þ\x0d\x00Ú\x00\x00\x01\x00\x01S\x00 !¯ä*Ç^òCo\x15\x9fi[0m" 400 -
+2025-03-08 03:36:50,959 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:50] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x80ø¼bjrþº^=Wv¶r\x9c! \x0f\x1dÌÓý?Ö\x13o\x8eÆ¿wÈY  ¬ô÷×\x99î>¼G\x11îj;\x80ç\x81eá~üÌÓ[0m" 400 -
+2025-03-08 03:36:50,964 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:50] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06\x9a\x9a\x03\x04\x03\x03DÍ\x00\x05\x00\x03\x02h2\x00')
+2025-03-08 03:36:50,965 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:50] code 400, message Bad request version ('ÄùÕ¯ßr%µûÏÈÓ')
+2025-03-08 03:36:50,965 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:50] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03zç\x03\x10/T\x9b\\Âà)ÆÍ-\x9etT\x90\x83¥Ù\x9d\x0d\x8dÂÙä\x86\x0dM`õ N5T\x190\x0cÅbÑ¦\x8d/Ö\x07-OU7\\Èæ\x07¹cò\x12¸\x1f\x01Ò\x19Á\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06SZZ\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x17\x00\x00\x00-\x00\x02\x01\x01þ\x0d\x00Ú\x00\x00\x01\x00\x01ú\x00 \x1cÑÇ¯d\x12U¤÷É.\x06K\x11Õ³\x89|ô¢(Lï)­)1w¼l¤S\x00°\x8b@½Wy»ÿã¦¬F¯\x8a<õyÑ¼RDÀ\x7fî\x89\x0d\x82\\NiÒð\x0b\x97,\x84(¾ë\x9c\x17êÛ]±W3U­N[ò\x9dÊ\x85fTê\x1d÷{\x0e\x1b­\x0f¨\x0e\x95J¬\x88`L\x06\x07ñ\x1a\\dE9W\x83Ä\x86$Yà\x17\x0eË\x81z3ÛÊôÿÄ\x9b±6x\x0cíFRK\x8b|ÝBá\x87µ©woÆZ\x9dÿ\x9bv¯[Pémß>Üú\x9bÒßJ¯EA\x86ëÆ\x91÷³´÷@\x08Ìë°\x04\x85`ÞÓì\x87ª¸\x09öÄt¹á§g~\x89i\x12({vÿ\x01\x00\x01\x00\x00#\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06\x9a\x9a\x03\x04\x03\x03DÍ\x00\x05\x00\x03\x02h2\x00[0m" 400 -
+2025-03-08 03:36:50,966 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:50] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03·\x80S\x16¬i¤?\x11\x8b\x16H}¢bR\x1b­\x9d»É&ª\x02¿æÎ!UÚI\x13 \x00°4òn\x00µ$\x9eê\x14ä¶ôµ\x91g¾´\x02½³üO\x82\x99«j\x15¢ é\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S\x8a\x8a\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x0b\x00\x02\x01\x00\x003\x04ï\x04íªª\x00\x01\x00\x11ì\x04ÀÚI@ïZDãÜ\x95Q\x19$öð1\x0fr\x7fÏh¯¥B¢2ÆOíCt\x97\x80\x81\x96Ö¶ÎÓWcòÎ\x03û,?û¡à9XÓì,Ï\x8c\x0c¡¨\x88ê!\x1bD\x01'ù\x95ÁéÜ \x86\x8a\x1cK¨\x80Ý$\x14\\ë\x8dâ9,\x95\x16¤³ù3Ð¡@ò´¯Yà\x93§;®h\x13i\x8e¼¾\x80"lÓ\x17=o\x8bº$\x07 ñªÂ\x99*yNRº\x17\x9a\x09Ú\x04¤\x91Ë£\x82å\x00x¬\x09\x1a5\x88D\x0c|÷Àr\x0b0\x0fj;6\x7fqÀ3\x87ÌµÐÆ¨ lü°\x9bÓh\x19\x8eqaØ\x8b\x9b\x12ô½;Ú(\x068c\x94S\x89{éÅf÷\x16Ù\x0c \x88GÇÏØ¼Úhi;\x92u\x888E\x19k\x83Ãp\x16e[\x10¿\x93\x0bÑRg\x1blb½\x1b[yl]*\x08U\x0fLXº\x80W\x05hO},­Ò6\x90Zq\x7féFdãõ\x9b4\x80\x17·vµx\x03®\x86%\x0dX9Q \x17d^\x19_ÔÇ\x9d´ä'\x05\x97\x0b)zn\x07K«ÜV\x06Ú0s²|zo@A\x9a£\x9a\x9f1\x12¾´\x95tD\x07öÚ¯#) \x9f\x8bxÙÁÆY¢8'è\x18ê\x0c¡RÁ\x80Ñ°MÝ<d\x8e14íWBa\x02³\x16ú {xvïl½½8Pù\x9b\x855\x94¬ó³A2\x90\\A\\\x19JAY \x05\x9b=å\x93\x1e\x99x¸`\x9et³\x9cÔ\x91&(§­?\x8b<D5Uª3µå\x9a]ÝGJµ8X©\x15VfÛ«\x1a¸¢Ô±`bè\x9a*\x1bOû¡À|k\x8b\x8cõz¦\x82mdä=ã\x8c\x86X\x17\x02×\x86\x15LÒ\x94ló1\x17Bh3UF\x9bzi\x16#\x89fvÉ \x8bh²{\x93'é\x0f@y\x8fjÁ\x08ó¸-\x0d·\x94\x8d×·×¥zX±}\x93\x82\x15¿d\x14VÖ\x00\x8749\x0f\x98Â\x93á@yÌ\x95Òé:¾ ÄùÕ¯ßr%µûÏÈÓ\x1d[0m" 400 -
+2025-03-08 03:36:51,115 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:51] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x9a\x9a\x00\x00\x00')
+2025-03-08 03:36:51,116 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:51] code 400, message Bad request version ('PÕçÓJh@¶')
+2025-03-08 03:36:51,116 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:51] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x08B\x9bÆ+\x9f÷Ó¯\x12}\x0bÒÏFóÿ¥ÝÛ^õ\x02Oï\x88ü\x0ci\x99Õ£ OÜ\x91æ\x86\x02Ü\x86\x90ÅÑ.\x84fè\x86QMÖzcÄýw\x86v\x1e'÷þ³&\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x9a\x9a\x00\x00\x00[0m" 400 -
+2025-03-08 03:36:51,117 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:51] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03ñ1öbr\x02\x11â¶\x89\x9d»\x90ãbGõÆA\x1fPÕçÓJh@¶[0m" 400 -
+2025-03-08 03:36:51,120 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:51] code 400, message Bad request version ('\x02h2\x08http/1.1\x00+\x00\x07\x06')
+2025-03-08 03:36:51,120 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:51] code 400, message Bad request version ('þ¿ý\x99Y*\x00')
+2025-03-08 03:36:51,120 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:51] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x1eÚ#.c\x1b\x92d5Ú\x14ôk\x92W\x9e\x11ZÁÜ\x02¾¹\x09\x0b\x15²$ÿðÁ² |PsEÖ|¯]\x1eº£%î±õYK\x1anqÝ\x7fð\x0f}\x1a\x13n£AS\x91\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s**\x00\x00\x00-\x00\x02\x01\x01\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00+\x00\x07\x06[0m" 400 -
+2025-03-08 03:36:51,121 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:51] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03J\x85\x93éµÁj»ÄÝ\x06\x00\x1bã<¥oò\x8d­s%)´\x8fáþõÅdÈÒ `\x7f9\\{\x87!ól~ÿÜF\x98\x8d\x94\x05Ífr\x16\x0bÓÎõ\x09þ¿ý\x99Y*\x00 [0m" 400 -
+2025-03-08 03:36:51,213 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:51] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+2025-03-08 03:36:51,213 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:51] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03d9á(ki[\x81\x18¼ëBð\x05\x80è+[0m" 400 -
+2025-03-08 03:36:51,213 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:51] code 400, message Bad request version ('}fäé1C§ûm©\x93\x94\x93û\x9c°`Çö×ÇüÙm:Ù%}_G\x0e#\x00ðzÜ´\x99')
+2025-03-08 03:36:51,214 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:51] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x8f^lÉUD\x95Ð\x9c\x91´¡þFA¯$5b°p¶ÑÉò£\x04jNÆÐ+ \x9cïôÈhòAj$^½\x13Ô¡ÂËÄòX\x19ó\x9c£Ñ1Â®±O«e\x01\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x9a\x9a\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06ZZ\x03\x04\x03\x03ÿ\x01\x00\x01\x00\x00\x0b\x00\x02\x01\x00þ\x0d\x01\x1a\x00\x00\x01\x00\x01Ö\x00 }fäé1C§ûm©\x93\x94\x93û\x9c°`Çö×ÇüÙm:Ù%}_G\x0e#\x00ðzÜ´\x99[0m" 400 -
+2025-03-08 03:36:51,218 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:51] code 400, message Bad request version ('añ×ö.fû<\x18¶t\x81AÈà\x95e\x190!åR\x80\x03h')
+2025-03-08 03:36:51,219 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:51] code 400, message Bad request syntax ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03%åÛ')
+2025-03-08 03:36:51,219 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:51] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03]yí|\x94\x9e\x99º4ïõ\x1f\x89£¯¨ÿê\x88h²C^Æ\x10\x12\x92ü1¡ÚÉ añ×ö.fû<\x18¶t\x81AÈà\x95e\x190!åR\x80\x03h[0m" 400 -
+2025-03-08 03:36:51,219 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:51] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03%åÛ[0m" 400 -
+2025-03-08 03:36:51,338 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:51] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93::\x00\x00\x00')
+2025-03-08 03:36:51,338 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:51] code 400, message Bad request version ('¿"ÇDt2À\x05\x9aô')
+2025-03-08 03:36:51,339 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:51] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03ë7íPèi&PEæàÜF\x9e\x8eé\x92\x0bÙË¢c:4Eeyf Þ°n \x91\x1aÛÃ°í\x1a\x88é\x92\x16þ\x81/Í\x85¿µsíÎ¨ÉN*½\x17\x1bZ\x91Ä%\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93::\x00\x00\x00[0m" 400 -
+2025-03-08 03:36:51,339 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:51] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03w\x84\x02å\x9eb4à\x12ÝVóg¬\x19¡»?\x91\x804\x02?³\x05\x83Ä\x12Z\x9f®\x8e èÈ?h`f¦ø\x84\x075¿SëÎcÙö\x09ô:\x03§¬^\\4pUÀÉ¹\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x8a\x8a\x00\x00\x00#\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x12\x00\x00ÿ\x01\x00\x01\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06ZZ\x03\x04\x03\x03DÍ\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01þ\x0d\x00ú\x00\x00\x01\x00\x01@\x00 Ì÷N\x89\x97R£)Ëü\x86U¬¶ï\x873Á\x8b\x0dOU'\x92ó²½ë\x82\x88\x05@\x00Ð<Óþç/\x9a\x11ý#K4#"ÌÉú/XÑÀl¶y}\x18\x14@×!¼°k\x13®û¯bØÜ\x93\x93¹ÿ\x98»$æE\x80'\x98¼b\x9bËm\x93{<°­ÉGq¯\x02Ô5T´R]S\x9d]CÁÃz\x1f¿"ÇDt2À\x05\x9aô[0m" 400 -
+2025-03-08 03:36:51,342 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:51] code 400, message Bad request version ('Ë&4ÿnVY\x8e*5»EMÊ\x07{AE;5ó1J¾.')
+2025-03-08 03:36:51,343 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:51] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x96G¼^SøØ.>C#þ\x9b1xÇä\x7fôJ`\x8f\x0b¿)ÔáÁ\x1cl\x9ej ÑPÎ~<½wÿÔ\x19·õ\x09Ù\x9eR\x82@@»©\x9d©â\x85ìn9ß!\x8e\x13\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sÊÊ\x00\x00\x00+\x00\x07\x06ªª\x03\x04\x03\x03ÿ\x01\x00\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01DÍ\x00\x05\x00\x03\x02h2\x00#\x00\x00\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00þ\x0d\x00ú\x00\x00\x01\x00\x01j\x00 .T\x08t\x14\x9d¢0WÄ>¤\x9f­è=9\x1a\x0b'j\x12Ï\x07N\x19¦¨ÙÎU!\x00ÐNjB¯ì§\x1c\x04æ¦¢\x82sn\x8a\x81A;É¥\x94\x88à=\x0e\x86Àþa\x81\x8a±ÄÅÁ+è\x994BÖ"\x80»]"C\x91\x9b&p\x042`\x0e\x97\x97\x10\x15\x1a$e\x09ó¨ÿ¼\x04á\x91Mæ¾¯Há\x89\x0dÍ µ/\x8c¶XèÝ«õ\x93iS\x8fñX6Høø¯`\x90´46[ÛåÛ\x06\x91+D\x97O8o°IKÉ¥:2,\x1fÿXZq\x01ËøÌ~P·©×F@<iI\x89Wà\x18gs\x95È\x94Gë©\x8fî\x81º¢\x05\x1fË&4ÿnVY\x8e*5»EMÊ\x07{AE;5ó1J¾.[0m" 400 -
+2025-03-08 03:36:51,343 - werkzeug - ERROR - 127.0.0.1 - - [08/Mar/2025 03:36:51] code 400, message Bad request version ('â\x06\x89\x8aQ\x13É°j¾\x8c\x99')
+2025-03-08 03:36:51,344 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:36:51] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03z÷¦ñÂ\x83'¾¸°çõìþ²ìO§\x83«ÖI\x8fü\x0c+Ã²\x02P\x0e] â\x06\x89\x8aQ\x13É°j¾\x8c\x99[0m" 400 -
+2025-03-08 03:37:07,922 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:37:07,924 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:37:07,925 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:37:09,149 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:37:17,639 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:37:17,640 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:37:17,641 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:37:17,641 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:37:17,641 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:37:17,725 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.1.44:5000
+2025-03-08 03:37:17,727 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 03:37:17,746 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-08 03:37:18,007 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:37:18,015 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:37:18,022 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:37:18,029 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:37:18,031 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:37:18,034 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:37:18,035 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:37:18,035 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:37:18,037 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:37:18,038 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:37:18,038 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:37:18,040 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 03:37:18,041 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 03:37:18,041 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 03:37:22,329 - mediassist_agent - INFO - Starting Flask application
+2025-03-08 03:37:22,332 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-08 03:37:22,332 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-08 03:37:22,332 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-08 03:37:22,332 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-08 03:37:22,353 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 03:37:22,378 - werkzeug - INFO -  * Debugger PIN: 712-590-480
+2025-03-08 03:37:22,760 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-08 03:37:22,767 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-08 03:37:22,774 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-08 03:37:22,781 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-08 03:37:22,784 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-08 03:37:22,785 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-08 03:37:22,786 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-08 03:37:22,787 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-08 03:37:22,789 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-08 03:37:22,789 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-08 03:37:22,789 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-08 03:37:22,792 - mediassist_agent - INFO - Registered 10 agents
+2025-03-08 03:37:22,793 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-08 03:37:22,793 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-08 03:37:28,778 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:37:28] "GET / HTTP/1.1" 200 -
+2025-03-08 03:37:28,852 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:37:28] "GET /status HTTP/1.1" 200 -
+2025-03-08 03:37:28,950 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:37:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-08 03:37:41,662 - mediassist_agent - INFO - Processing query: 'heavy chest pain and fever...' (Type: None)
+2025-03-08 03:37:43,252 - mediassist_agent - INFO - Router selected clinical agent for query: 'heavy chest pain and fever...'
+2025-03-08 03:37:44,415 - mediassist_agent - INFO - Found 4 similar records for category clinical, returning top 3
+2025-03-08 03:37:49,448 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:37:49] "POST /query HTTP/1.1" 200 -
+2025-03-08 03:38:04,422 - mediassist_agent - INFO - Processing query: 'heavy chest pain...' (Type: None)
+2025-03-08 03:38:04,994 - mediassist_agent - INFO - Router selected clinical agent for query: 'heavy chest pain...'
+2025-03-08 03:38:05,815 - mediassist_agent - INFO - Found 3 similar records for category clinical, returning top 3
+2025-03-08 03:38:10,534 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:38:10] "POST /query HTTP/1.1" 200 -
+2025-03-08 03:38:20,113 - mediassist_agent - INFO - Processing query: 'full fever...' (Type: None)
+2025-03-08 03:38:20,656 - mediassist_agent - INFO - Router selected symptom agent for query: 'full fever...'
+2025-03-08 03:38:21,352 - mediassist_agent - INFO - Found 2 similar records for category symptom, returning top 2
+2025-03-08 03:38:25,753 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:38:25] "POST /query HTTP/1.1" 200 -
+2025-03-08 03:38:52,983 - mediassist_agent - INFO - Processing query: 'book...' (Type: None)
+2025-03-08 03:38:54,045 - mediassist_agent - INFO - Router selected literature agent for query: 'book...'
+2025-03-08 03:38:54,970 - mediassist_agent - INFO - Found 0 similar records for category literature, returning top 0
+2025-03-08 03:38:54,970 - mediassist_agent - INFO - No similar literature found for query: 'book...', generating direct response
+2025-03-08 03:39:00,706 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:39:00] "POST /query HTTP/1.1" 200 -
+2025-03-08 03:39:23,181 - mediassist_agent - INFO - Processing query: 'full cold and cough...' (Type: None)
+2025-03-08 03:39:23,742 - mediassist_agent - INFO - Router selected symptom agent for query: 'full cold and cough...'
+2025-03-08 03:39:24,564 - mediassist_agent - INFO - Found 4 similar records for category symptom, returning top 3
+2025-03-08 03:39:28,968 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 03:39:28] "POST /query HTTP/1.1" 200 -
+2025-03-08 03:40:13,736 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:40:13,747 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:40:13,748 - werkzeug - INFO -  * Detected change in 'C:\\React\\bkp-health\\bkp\\python-backend\\app.py', reloading
+2025-03-08 03:40:17,108 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-10 23:04:19,295 - mediassist_agent - INFO - Starting Flask application
+2025-03-10 23:04:19,295 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-10 23:04:19,296 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-10 23:04:19,296 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-10 23:04:19,296 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-10 23:04:19,386 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.46:5002
+2025-03-10 23:04:19,386 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 23:04:19,387 - werkzeug - INFO -  * Restarting with stat
+2025-03-10 23:04:19,431 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-10 23:04:19,433 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-10 23:04:19,435 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-10 23:04:19,438 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-10 23:04:19,438 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-10 23:04:19,443 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-10 23:04:19,444 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-10 23:04:19,446 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-10 23:04:19,447 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-10 23:04:19,447 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-10 23:04:19,447 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-10 23:04:19,447 - mediassist_agent - INFO - Registered 9 agents
+2025-03-10 23:04:19,447 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-10 23:04:19,447 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-10 23:04:20,165 - mediassist_agent - INFO - Starting Flask application
+2025-03-10 23:04:20,165 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-10 23:04:20,165 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-10 23:04:20,165 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-10 23:04:20,165 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-10 23:04:20,188 - werkzeug - WARNING -  * Debugger is active!
+2025-03-10 23:04:20,202 - werkzeug - INFO -  * Debugger PIN: 451-868-511
+2025-03-10 23:04:20,230 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-10 23:04:20,232 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-10 23:04:20,234 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-10 23:04:20,236 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-10 23:04:20,236 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-10 23:04:20,239 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-10 23:04:20,240 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-10 23:04:20,241 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-10 23:04:20,243 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-10 23:04:20,243 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-10 23:04:20,243 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-10 23:04:20,243 - mediassist_agent - INFO - Registered 9 agents
+2025-03-10 23:04:20,243 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-10 23:04:20,243 - mediassist_agent - INFO - Background initialization completed successfully
