@@ -202,3 +202,87 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Add this to your src/app/globals.css */
+
+/* Markdown and emoji styles */
+.emoji {
+  display: inline-block;
+  font-size: 1.3em;
+  vertical-align: middle;
+  margin-right: 0.25rem;
+}
+
+.emoji.hospital { color: #2c6ad5; }
+.emoji.medication { color: #ff6b6b; }
+.emoji.warning { color: #ffb142; }
+.emoji.stats { color: #5352ed; }
+.emoji.clipboard { color: #1e90ff; }
+.emoji.doctor { color: #3742fa; }
+.emoji.research { color: #2ed573; }
+.emoji.book { color: #ff4757; }
+.emoji.search { color: #5352ed; }
+.emoji.alert { color: #ff6348; }
+.emoji.eye { color: #70a1ff; }
+.emoji.repeat { color: #ff9f43; }
+.emoji.crystal-ball { color: #a4b0be; }
+
+/* Prose styling for markdown content */
+.prose h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  color: #2c6ad5;
+  display: flex;
+  align-items: center;
+}
+
+.prose h3 {
+  font-size: 1.2rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.prose ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.prose ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  list-style-type: decimal;
+}
+
+.prose li {
+  margin-bottom: 0.25rem;
+}
+
+.prose p {
+  margin-bottom: 0.75rem;
+}
+
+.prose strong {
+  font-weight: 600;
+}
+
+/* Improve chat container styling */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Booking interface styling */
+.booking-container {
+  margin-top: 1.5rem;
+  border-top: 1px dashed #e2e8f0;
+  padding-top: 1.5rem;
+}

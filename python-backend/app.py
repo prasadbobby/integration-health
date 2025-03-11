@@ -54,8 +54,8 @@ APP_STATE = {
 }
 
 # Environment variables
-GEMINI_API_KEY = "AIzaSyCcRxsIv0GyiRl3NtPvr1o8LdfoeDUn_HE"
-HF_API_KEY = "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"
+GEMINI_API_KEY = "AIzaSyA3RyeeFD7FOlm8x190VZ5mCfcTiWHXINQ"
+HF_API_KEY = "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"
 MODEL_NAME = "gemini-1.5-flash"
 EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
@@ -580,7 +580,7 @@ For each section, provide detailed and practical advice. Format your response wi
             )
             
             response = model_instance.generate_content(prompt)
-            
+            logger.info(response.text)
             return response.text
             
         except Exception as e:
@@ -935,7 +935,9 @@ class DrugAgent(Agent):
                 response = self._create_base_response()
                 response["response"] = direct_response
                 response["direct_response"] = True
+                print(direct_response)
                 return response
+
             
             # Prepare drug prompt with similar interactions
             formatted_drugs = self._format_similar_drugs(similar_drugs)

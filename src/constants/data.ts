@@ -22,42 +22,11 @@ export const navItems: NavItem[] = [
     items: [] // Empty array as there are no child items for Dashboard
   },
   {
-    title: 'Generate',
-    url: '#', // Placeholder as there is no direct link for the parent
+    title: 'AI Assistant',
+    url: '/dashboard/chat',
     icon: 'medical',
     isActive: true,
-    items: [
-      {
-        title: 'Clinical Case Analysis',
-        url: '/dashboard/chat/clinical',
-        icon: 'clinical',
-        shortcut: ['c', 'c']
-      },
-      {
-        title: 'Medical Literature Review',
-        url: '/dashboard/chat/literature',
-        icon: 'literature',
-        shortcut: ['l', 'l']
-      },
-      {
-        title: 'Symptom Analysis',
-        url: '/dashboard/chat/symptom',
-        icon: 'symptom',
-        shortcut: ['s', 's']
-      },
-      {
-        title: 'Drug Interaction',
-        url: '/dashboard/chat/drug',
-        icon: 'drug',
-        shortcut: ['d', 'i']
-      },
-      {
-        title: 'Image Analysis',
-        url: '/dashboard/image-analysis',
-        icon: 'image',
-        shortcut: ['i', 'a']
-      }
-    ]
+    shortcut: ['a', 'i']
   },
   {
     title: 'Profile',

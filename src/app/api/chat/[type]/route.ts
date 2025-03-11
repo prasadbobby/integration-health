@@ -1,13 +1,17 @@
 // src/app/api/chat/[type]/route.ts
 import { NextRequest, NextResponse } from 'next/server';
+import { getFallbackResponse } from '@/lib/fallback-responses';
 
 export async function POST(
   req: NextRequest,
   { params }: { params: { type: string } }
 ) {
   try {
+    // Properly await the params object
+    const resolvedParams = await Promise.resolve(params);
+    const chatType = resolvedParams.type;
+    
     const { message, sessionId } = await req.json();
-    const chatType = params.type;
     
     // Connect to Python backend
     const pythonBackendUrl = process.env.PYTHON_BACKEND_URL || 'http://localhost:5002';
@@ -30,11 +34,34 @@ export async function POST(
     const data = await pythonResponse.json();
     return NextResponse.json(data);
     
-  } catch (error) {
+  } 
+  catch (error: any) {
     console.error('Error in chat API:', error);
+    
+    // Use fallback response if it's a connectivity issue
+    if (error.name === 'AbortError' || 
+        (error.message && error.message.includes('connect')) || 
+        (error.message && error.message.includes('timeout'))) {
+      
+      return NextResponse.json(
+        { 
+          status: "partial_success", 
+          response: getFallbackResponse(message),
+          message: "Using fallback response due to backend connectivity issues."
+        },
+        { status: 200 }
+      );
+    }
+    
     return NextResponse.json(
-      { status: "error", response: 'Failed to process request' },
+      { 
+        status: "error", 
+        response: 'Failed to process request. Our servers might be experiencing high traffic.' 
+      },
       { status: 500 }
     );
   }
+
+
+
 }

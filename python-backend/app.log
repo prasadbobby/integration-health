@@ -1321,3 +1321,292 @@
 2025-03-10 23:04:20,243 - mediassist_agent - INFO - Registered 9 agents
 2025-03-10 23:04:20,243 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
 2025-03-10 23:04:20,243 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 00:47:20,289 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 00:47:20,289 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 00:47:20,289 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 00:47:20,289 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 00:47:20,289 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 00:47:20,307 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 00:47:20,320 - werkzeug - INFO -  * Debugger PIN: 451-868-511
+2025-03-11 00:47:20,374 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 00:47:20,376 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 00:47:20,378 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 00:47:20,380 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 00:47:20,380 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 00:47:20,384 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 00:47:20,386 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 00:47:20,387 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 00:47:20,389 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 00:47:20,389 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 00:47:20,389 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 00:47:20,389 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 00:47:20,389 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 00:47:20,389 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 00:47:33,402 - mediassist_agent - INFO - Processing query: 'Hi...' (Type: None)
+2025-03-11 00:48:33,445 - mediassist_agent - ERROR - Error in router agent: 504 Deadline Exceeded
+2025-03-11 00:48:33,448 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 00:48:33] "POST /query HTTP/1.1" 200 -
+2025-03-11 00:51:51,112 - werkzeug - INFO -  * Detected change in '/Users/bob/Documents/BoB-drive/module-integration/python-backend/app.py', reloading
+2025-03-11 00:51:54,997 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 00:51:54,997 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 00:51:54,997 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 00:51:54,997 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 00:51:54,997 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 00:51:55,013 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 00:51:55,022 - werkzeug - INFO -  * Debugger PIN: 451-868-511
+2025-03-11 00:51:55,076 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 00:51:55,078 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 00:51:55,080 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 00:51:55,082 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 00:51:55,082 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 00:51:55,086 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 00:51:55,087 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 00:51:55,089 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 00:51:55,090 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 00:51:55,090 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 00:51:55,090 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 00:51:55,090 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 00:51:55,090 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 00:51:55,090 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 00:52:00,624 - mediassist_agent - INFO - Processing query: 'Hi...' (Type: None)
+2025-03-11 00:53:00,657 - mediassist_agent - ERROR - Error in router agent: 504 Deadline Exceeded
+2025-03-11 00:53:00,660 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 00:53:00] "POST /query HTTP/1.1" 200 -
+2025-03-11 00:54:07,435 - werkzeug - INFO -  * Detected change in '/Users/bob/Documents/BoB-drive/module-integration/python-backend/app.py', reloading
+2025-03-11 00:54:11,107 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 00:54:11,108 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 00:54:11,108 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 00:54:11,108 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 00:54:11,108 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 00:54:11,127 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 00:54:11,138 - werkzeug - INFO -  * Debugger PIN: 451-868-511
+2025-03-11 00:54:11,192 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 00:54:11,195 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 00:54:11,196 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 00:54:11,198 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 00:54:11,198 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 00:54:11,203 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 00:54:11,204 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 00:54:11,206 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 00:54:11,207 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 00:54:11,207 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 00:54:11,207 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 00:54:11,207 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 00:54:11,207 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 00:54:11,207 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 00:54:16,843 - mediassist_agent - INFO - Processing query: 'Hi...' (Type: None)
+2025-03-11 00:55:16,878 - mediassist_agent - ERROR - Error in router agent: 504 Deadline Exceeded
+2025-03-11 00:55:16,882 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 00:55:16] "POST /query HTTP/1.1" 200 -
+2025-03-11 10:58:13,101 - mediassist_agent - INFO - Processing query: 'having fever ...' (Type: None)
+2025-03-11 10:58:13,104 - mediassist_agent - INFO - Router detected symptom keywords, using symptom agent for query: 'having fever ...'
+2025-03-11 10:58:13,815 - mediassist_agent - INFO - Found 2 similar records for category symptom, returning top 2
+2025-03-11 10:58:18,982 - mediassist_agent - INFO - Generating specialist recommendations for: 'having fever ...'
+2025-03-11 10:58:23,387 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 10:58:23] "POST /query HTTP/1.1" 200 -
+2025-03-11 10:59:29,193 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 10:59:29] "POST /book-appointment HTTP/1.1" 200 -
+2025-03-11 11:01:12,078 - mediassist_agent - INFO - Processing query: 'having high from last 2 weeks and little chest pai...' (Type: None)
+2025-03-11 11:01:12,078 - mediassist_agent - INFO - Router detected symptom keywords, using symptom agent for query: 'having high from last 2 weeks and little chest pai...'
+2025-03-11 11:01:12,603 - mediassist_agent - INFO - Found 1 similar records for category symptom, returning top 1
+2025-03-11 11:01:17,568 - mediassist_agent - INFO - Generating specialist recommendations for: 'having high from last 2 weeks and little chest pai...'
+2025-03-11 11:01:22,088 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 11:01:22] "POST /query HTTP/1.1" 200 -
+2025-03-11 11:02:12,509 - mediassist_agent - INFO - Processing query: 'Using paracetamol along with Ibuprofin any issue i...' (Type: None)
+2025-03-11 11:02:13,130 - mediassist_agent - INFO - Router selected drug agent for query: 'Using paracetamol along with Ibuprofin any issue i...'
+2025-03-11 11:02:13,886 - mediassist_agent - INFO - Found 2 similar records for category drug, returning top 2
+2025-03-11 11:02:18,102 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 11:02:18] "POST /query HTTP/1.1" 200 -
+2025-03-11 11:03:19,467 - werkzeug - INFO -  * Detected change in '/Users/bob/Documents/BoB-drive/module-integration/python-backend/app.py', reloading
+2025-03-11 11:03:23,357 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 11:03:23,358 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 11:03:23,358 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 11:03:23,358 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 11:03:23,358 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 11:03:23,378 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 11:03:23,389 - werkzeug - INFO -  * Debugger PIN: 451-868-511
+2025-03-11 11:03:23,445 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 11:03:23,448 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 11:03:23,451 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 11:03:23,453 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 11:03:23,453 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 11:03:23,458 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 11:03:23,460 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 11:03:23,461 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 11:03:23,463 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 11:03:23,463 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 11:03:23,463 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 11:03:23,463 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 11:03:23,463 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 11:03:23,463 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 11:03:28,452 - werkzeug - INFO -  * Detected change in '/Users/bob/Documents/BoB-drive/module-integration/python-backend/app.py', reloading
+2025-03-11 11:03:29,724 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 11:03:29,724 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 11:03:29,724 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 11:03:29,724 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 11:03:29,724 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 11:03:29,740 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 11:03:29,754 - werkzeug - INFO -  * Debugger PIN: 451-868-511
+2025-03-11 11:03:29,809 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 11:03:29,812 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 11:03:29,814 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 11:03:29,816 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 11:03:29,816 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 11:03:29,820 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 11:03:29,821 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 11:03:29,822 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 11:03:29,824 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 11:03:29,824 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 11:03:29,824 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 11:03:29,824 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 11:03:29,824 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 11:03:29,824 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 11:03:30,771 - werkzeug - INFO -  * Detected change in '/Users/bob/Documents/BoB-drive/module-integration/python-backend/app.py', reloading
+2025-03-11 11:03:31,772 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 11:03:31,772 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 11:03:31,772 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 11:03:31,772 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 11:03:31,773 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 11:03:31,787 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 11:03:31,795 - werkzeug - INFO -  * Debugger PIN: 451-868-511
+2025-03-11 11:03:31,829 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 11:03:31,831 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 11:03:31,832 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 11:03:31,834 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 11:03:31,834 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 11:03:31,837 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 11:03:31,838 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 11:03:31,840 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 11:03:31,841 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 11:03:31,841 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 11:03:31,841 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 11:03:31,841 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 11:03:31,841 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 11:03:31,841 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 11:03:49,978 - werkzeug - INFO -  * Detected change in '/Users/bob/Documents/BoB-drive/module-integration/python-backend/app.py', reloading
+2025-03-11 11:03:51,237 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 11:03:51,237 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 11:03:51,237 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 11:03:51,237 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 11:03:51,237 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 11:03:51,252 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 11:03:51,265 - werkzeug - INFO -  * Debugger PIN: 451-868-511
+2025-03-11 11:03:51,342 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 11:03:51,345 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 11:03:51,347 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 11:03:51,349 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 11:03:51,349 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 11:03:51,353 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 11:03:51,355 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 11:03:51,356 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 11:03:51,358 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 11:03:51,358 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 11:03:51,358 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 11:03:51,358 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 11:03:51,358 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 11:03:51,358 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 11:04:02,730 - mediassist_agent - INFO - Processing query: 'Using paracetamol along with Ibuprofin any issue i...' (Type: None)
+2025-03-11 11:04:05,092 - mediassist_agent - INFO - Router selected drug agent for query: 'Using paracetamol along with Ibuprofin any issue i...'
+2025-03-11 11:04:06,019 - mediassist_agent - INFO - Found 2 similar records for category drug, returning top 2
+2025-03-11 11:04:10,137 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 11:04:10] "POST /query HTTP/1.1" 200 -
+2025-03-11 11:04:23,264 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 11:04:23,264 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 11:04:23,264 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 11:04:23,264 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 11:04:23,264 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 11:04:23,293 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.20.10.2:5002
+2025-03-11 11:04:23,293 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 11:04:23,294 - werkzeug - INFO -  * Restarting with stat
+2025-03-11 11:04:23,376 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 11:04:23,378 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 11:04:23,380 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 11:04:23,382 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 11:04:23,382 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 11:04:23,387 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 11:04:23,389 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 11:04:23,390 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 11:04:23,391 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 11:04:23,391 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 11:04:23,391 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 11:04:23,391 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 11:04:23,391 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 11:04:23,391 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 11:04:24,111 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 11:04:24,111 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 11:04:24,111 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 11:04:24,111 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 11:04:24,111 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 11:04:24,128 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 11:04:24,139 - werkzeug - INFO -  * Debugger PIN: 451-868-511
+2025-03-11 11:04:24,170 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 11:04:24,172 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 11:04:24,174 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 11:04:24,176 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 11:04:24,176 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 11:04:24,179 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 11:04:24,180 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 11:04:24,181 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 11:04:24,183 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 11:04:24,183 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 11:04:24,183 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 11:04:24,183 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 11:04:24,183 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 11:04:24,183 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 11:04:29,666 - mediassist_agent - INFO - Processing query: 'Using paracetamol along with Ibuprofin any issue i...' (Type: None)
+2025-03-11 11:04:31,542 - mediassist_agent - INFO - Router selected drug agent for query: 'Using paracetamol along with Ibuprofin any issue i...'
+2025-03-11 11:04:32,509 - mediassist_agent - INFO - Found 2 similar records for category drug, returning top 2
+2025-03-11 11:04:36,648 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 11:04:36] "POST /query HTTP/1.1" 200 -
+2025-03-11 11:05:38,912 - werkzeug - INFO -  * Detected change in '/Users/bob/Documents/BoB-drive/module-integration/python-backend/app.py', reloading
+2025-03-11 11:05:41,237 - werkzeug - INFO -  * Restarting with stat
+2025-03-11 11:05:42,317 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 11:05:42,318 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 11:05:42,318 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 11:05:42,318 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 11:05:42,318 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 11:05:42,335 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 11:05:42,344 - werkzeug - INFO -  * Debugger PIN: 451-868-511
+2025-03-11 11:05:42,392 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 11:05:42,394 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 11:05:42,396 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 11:05:42,398 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 11:05:42,398 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 11:05:42,402 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 11:05:42,404 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 11:05:42,405 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 11:05:42,406 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 11:05:42,406 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 11:05:42,407 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 11:05:42,407 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 11:05:42,407 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 11:05:42,407 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 11:05:46,847 - mediassist_agent - INFO - Processing query: 'Using paracetamol along with Ibuprofin any issue i...' (Type: None)
+2025-03-11 11:05:48,926 - mediassist_agent - INFO - Router selected drug agent for query: 'Using paracetamol along with Ibuprofin any issue i...'
+2025-03-11 11:05:49,543 - mediassist_agent - INFO - Found 2 similar records for category drug, returning top 2
+2025-03-11 11:05:53,868 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 11:05:53] "POST /query HTTP/1.1" 200 -
+2025-03-11 11:06:05,516 - mediassist_agent - INFO - Processing query: 'Using metformin along with Ibuprofin any issue if ...' (Type: None)
+2025-03-11 11:06:06,157 - mediassist_agent - INFO - Router selected drug agent for query: 'Using metformin along with Ibuprofin any issue if ...'
+2025-03-11 11:06:06,590 - mediassist_agent - INFO - Found 3 similar records for category drug, returning top 3
+2025-03-11 11:06:10,690 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 11:06:10] "POST /query HTTP/1.1" 200 -
+2025-03-11 11:07:08,219 - werkzeug - INFO -  * Detected change in '/Users/bob/Documents/BoB-drive/module-integration/python-backend/app.py', reloading
+2025-03-11 11:07:10,487 - werkzeug - INFO -  * Restarting with stat
+2025-03-11 11:07:11,553 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 11:07:11,554 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 11:07:11,554 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 11:07:11,554 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 11:07:11,554 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 11:07:11,567 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 11:07:11,576 - werkzeug - INFO -  * Debugger PIN: 451-868-511
+2025-03-11 11:07:11,625 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 11:07:11,628 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 11:07:11,629 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 11:07:11,631 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 11:07:11,631 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 11:07:11,635 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 11:07:11,636 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 11:07:11,638 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 11:07:11,639 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 11:07:11,639 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 11:07:11,639 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 11:07:11,639 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 11:07:11,639 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 11:07:11,639 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 11:07:15,486 - mediassist_agent - INFO - Processing query: 'Using paracetamol along with Ibuprofin any issue i...' (Type: None)
+2025-03-11 11:07:16,559 - mediassist_agent - INFO - Router selected drug agent for query: 'Using paracetamol along with Ibuprofin any issue i...'
+2025-03-11 11:07:16,992 - mediassist_agent - INFO - Found 2 similar records for category drug, returning top 2
+2025-03-11 11:07:22,130 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 11:07:22] "POST /query HTTP/1.1" 200 -

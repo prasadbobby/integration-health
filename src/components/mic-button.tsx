@@ -17,6 +17,7 @@ export default function MicButton({ onSpeechRecognized, disabled = false }: MicB
   useEffect(() => {
     // Check if browser supports speech recognition
     if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+      // @ts-ignore - TypeScript doesn't know about webkitSpeechRecognition
       const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
       const recognitionInstance = new SpeechRecognition();
       
@@ -24,13 +25,13 @@ export default function MicButton({ onSpeechRecognized, disabled = false }: MicB
       recognitionInstance.interimResults = false;
       recognitionInstance.lang = 'en-US';
       
-      recognitionInstance.onresult = (event) => {
+      recognitionInstance.onresult = (event: any) => {
         const transcript = event.results[0][0].transcript;
         onSpeechRecognized(transcript);
         setIsListening(false);
       };
       
-      recognitionInstance.onerror = (event) => {
+      recognitionInstance.onerror = (event: any) => {
         console.error('Speech recognition error:', event.error);
         setIsListening(false);
         toast.error('Failed to recognize speech. Please try again.');
