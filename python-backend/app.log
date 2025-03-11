@@ -1610,3 +1610,285 @@
 2025-03-11 11:07:16,559 - mediassist_agent - INFO - Router selected drug agent for query: 'Using paracetamol along with Ibuprofin any issue i...'
 2025-03-11 11:07:16,992 - mediassist_agent - INFO - Found 2 similar records for category drug, returning top 2
 2025-03-11 11:07:22,130 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 11:07:22] "POST /query HTTP/1.1" 200 -
+2025-03-11 12:33:02,358 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 12:33:02,358 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 12:33:02,358 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 12:33:02,358 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 12:33:02,358 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 12:33:02,447 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.20.10.2:5002
+2025-03-11 12:33:02,447 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 12:33:02,448 - werkzeug - INFO -  * Restarting with stat
+2025-03-11 12:33:02,494 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 12:33:02,496 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 12:33:02,498 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 12:33:02,500 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 12:33:02,501 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 12:33:02,505 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 12:33:02,507 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 12:33:02,508 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 12:33:02,510 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 12:33:02,510 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 12:33:02,510 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 12:33:02,510 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 12:33:02,510 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 12:33:02,510 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 12:33:03,208 - mediassist_agent - INFO - Starting Flask application
+2025-03-11 12:33:03,208 - mediassist_agent - INFO - Initializing MediAssist Agent System
+2025-03-11 12:33:03,208 - mediassist_agent - INFO - Initializing Model Manager
+2025-03-11 12:33:03,208 - mediassist_agent - INFO - Initialized Gemini model: gemini-1.5-flash
+2025-03-11 12:33:03,208 - mediassist_agent - INFO - Initializing Data Manager
+2025-03-11 12:33:03,220 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 12:33:03,235 - werkzeug - INFO -  * Debugger PIN: 451-868-511
+2025-03-11 12:33:03,262 - mediassist_agent - INFO - Loaded 5 clinical records
+2025-03-11 12:33:03,264 - mediassist_agent - INFO - Loaded 5 literature records
+2025-03-11 12:33:03,265 - mediassist_agent - INFO - Loaded 5 symptom records
+2025-03-11 12:33:03,268 - mediassist_agent - INFO - Loaded 5 drug records
+2025-03-11 12:33:03,268 - mediassist_agent - ERROR - Error loading diet data: [Errno 2] No such file or directory: 'data/diet_plans.xlsx'
+2025-03-11 12:33:03,270 - mediassist_agent - INFO - Loaded 5 clinical embeddings
+2025-03-11 12:33:03,272 - mediassist_agent - INFO - Loaded 5 literature embeddings
+2025-03-11 12:33:03,273 - mediassist_agent - INFO - Loaded 5 symptom embeddings
+2025-03-11 12:33:03,274 - mediassist_agent - INFO - Loaded 5 drug embeddings
+2025-03-11 12:33:03,274 - mediassist_agent - INFO - No embeddings found for diet, will generate when needed
+2025-03-11 12:33:03,274 - mediassist_agent - INFO - Data Manager initialized successfully
+2025-03-11 12:33:03,274 - mediassist_agent - INFO - Registered 9 agents
+2025-03-11 12:33:03,274 - mediassist_agent - INFO - MediAssist Agent System initialized successfully
+2025-03-11 12:33:03,274 - mediassist_agent - INFO - Background initialization completed successfully
+2025-03-11 12:33:39,741 - mediassist_agent - INFO - Processing query: 'having fever...' (Type: None)
+2025-03-11 12:33:39,742 - mediassist_agent - INFO - Router detected symptom keywords, using symptom agent for query: 'having fever...'
+2025-03-11 12:33:40,313 - mediassist_agent - INFO - Found 2 similar records for category symptom, returning top 2
+2025-03-11 12:33:44,280 - mediassist_agent - INFO - Generating specialist recommendations for: 'having fever...'
+2025-03-11 12:33:48,680 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:33:48] "POST /query HTTP/1.1" 200 -
+2025-03-11 12:35:45,980 - mediassist_agent - INFO - Processing query: 'using paracetamol with metformin together at same ...' (Type: None)
+2025-03-11 12:35:46,507 - mediassist_agent - INFO - Router selected drug agent for query: 'using paracetamol with metformin together at same ...'
+2025-03-11 12:35:47,091 - mediassist_agent - INFO - Found 1 similar records for category drug, returning top 1
+2025-03-11 12:35:51,999 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:35:51] "POST /query HTTP/1.1" 200 -
+2025-03-11 12:36:51,709 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:36:51] "POST /book-appointment HTTP/1.1" 200 -
+2025-03-11 12:44:22,857 - mediassist_agent - INFO - Processing image analysis with prompt: 'any issues with my skin...'
+2025-03-11 12:44:23,010 - mediassist_agent - ERROR - Error in image agent: cannot identify image file <_io.BytesIO object at 0x10a576340>
+2025-03-11 12:44:23,012 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:44:23] "POST /analyze-image HTTP/1.1" 200 -
+2025-03-11 12:48:09,120 - mediassist_agent - INFO - Processing image analysis with prompt: 'any issues with my skin...'
+2025-03-11 12:48:16,115 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:48:16] "POST /analyze-image HTTP/1.1" 200 -
+2025-03-11 12:49:04,420 - mediassist_agent - INFO - Processing query: 'having fever and cold...' (Type: None)
+2025-03-11 12:49:04,421 - mediassist_agent - INFO - Router detected symptom keywords, using symptom agent for query: 'having fever and cold...'
+2025-03-11 12:49:05,057 - mediassist_agent - INFO - Found 2 similar records for category symptom, returning top 2
+2025-03-11 12:49:08,635 - mediassist_agent - INFO - Generating specialist recommendations for: 'having fever and cold...'
+2025-03-11 12:49:12,951 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:49:12] "POST /query HTTP/1.1" 200 -
+2025-03-11 14:34:01,934 - mediassist_agent - INFO - Processing query: 'please prepare diet plan for me...' (Type: None)
+2025-03-11 14:35:01,757 - mediassist_agent - ERROR - Error in router agent: Timeout of 60.0s exceeded, last exception: 503 DNS resolution failed for generativelanguage.googleapis.com:443: C-ares status is not ARES_SUCCESS qtype=SRV name=_grpclb._tcp.generativelanguage.googleapis.com: DNS query cancelled
+2025-03-11 14:35:01,766 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 14:35:01] "POST /query HTTP/1.1" 200 -
+2025-03-11 14:35:24,845 - mediassist_agent - INFO - Processing query: 'please prepare diet plan for me...' (Type: None)
+2025-03-11 14:35:26,095 - mediassist_agent - INFO - Router selected diet agent for query: 'please prepare diet plan for me...'
+2025-03-11 14:35:26,097 - mediassist_agent - WARNING - Category diet not found in data
+2025-03-11 14:35:26,097 - mediassist_agent - INFO - No similar nutrition information found for query: 'please prepare diet plan for me...', generating direct response
+2025-03-11 14:35:32,427 - mediassist_agent - INFO - ## 🥗 Nutritional Analysis
+
+Before creating a personalized diet plan, I need more information about you.  This includes your:
+
+* Age
+* Sex
+* Height
+* Weight
+* Activity level (sedentary, lightly active, moderately active, very active, extra active)
+* Health conditions (allergies, intolerances, medical conditions)
+* Dietary preferences (vegetarian, vegan, etc.)
+* Goals (weight loss, weight gain, muscle building, general health improvement)
+
+A comprehensive nutritional analysis requires this data to determine your **Basal Metabolic Rate (BMR)**, **daily caloric needs**, and **macronutrient ratios** (carbohydrates, proteins, and fats).  This analysis will form the foundation of your personalized diet plan.  Without this information, the following recommendations are general guidelines only.
+
+
+## ⚖️ Dietary Recommendations
+
+* **Prioritize whole, unprocessed foods:**  Focus on fruits, vegetables, whole grains, lean proteins, and healthy fats.
+* **Control portion sizes:** Be mindful of how much you're eating. Use smaller plates and bowls to help manage portions.
+* **Balance your macronutrients:** Aim for a balanced intake of carbohydrates, proteins, and fats. The ideal ratio depends on your individual needs and goals, determined by the nutritional analysis mentioned above.
+* **Limit added sugars, saturated fats, and processed foods:** These contribute to weight gain, inflammation, and various health problems.
+* **Read food labels carefully:** Pay attention to serving sizes, calories, and the amount of added sugar, saturated fat, and sodium.
+* **Eat regular meals:** Avoid skipping meals, as this can lead to overeating later in the day.  Aim for 3 main meals and 1-2 healthy snacks.
+
+
+## 🍎 Food Suggestions
+
+Here are some examples of healthy food choices:
+
+**Breakfast:**
+
+1. Oatmeal with berries and nuts
+2. Greek yogurt with fruit and granola
+3. Scrambled eggs with vegetables
+4. Smoothie with fruits, vegetables, and protein powder
+
+**Lunch:**
+
+1. Salad with grilled chicken or fish
+2. Leftovers from dinner
+3. Whole-wheat sandwich with lean protein and vegetables
+4. Soup and a whole-grain roll
+
+**Dinner:**
+
+1. Baked salmon with roasted vegetables
+2. Chicken stir-fry with brown rice
+3. Lentil soup with whole-grain bread
+4. Vegetarian chili with cornbread
+
+**Snacks:**
+
+1. Fruits (apples, bananas, oranges)
+2. Vegetables (carrots, celery, bell peppers)
+3. Nuts and seeds
+4. Greek yogurt
+5. Hard-boiled eggs
+
+
+## 💧 Hydration Guidelines
+
+* **Drink plenty of water throughout the day.** Aim for at least 8 glasses (64 ounces) of water per day, but adjust based on your activity level and climate.
+* **Limit sugary drinks:** Soda, juice, and sweetened beverages are high in calories and offer little nutritional value.
+* **Consider herbal teas:** These can be a healthy and hydrating alternative to sugary drinks.
+
+
+## 🏋️ Lifestyle Considerations
+
+* **Engage in regular physical activity:** Aim for at least 150 minutes of moderate-intensity aerobic exercise or 75 minutes of vigorous-intensity aerobic exercise per week, along with muscle-strengthening activities twice a week.
+* **Prioritize sleep:** Aim for 7-9 hours of quality sleep per night.  Sleep deprivation can negatively impact your metabolism and appetite regulation.
+* **Manage stress:** Chronic stress can lead to overeating and unhealthy food choices. Find healthy ways to manage stress, such as exercise, yoga, meditation, or spending time in nature.
+* **Seek professional guidance:** Consult with a registered dietitian or healthcare professional for personalized advice and support.  This is especially important if you have any underlying health conditions or specific dietary needs.
+
+
+**Disclaimer:** This information is for general knowledge and does not constitute medical advice.  Consult with a healthcare professional or registered dietitian before making any significant changes to your diet or exercise routine.
+
+2025-03-11 14:35:32,452 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 14:35:32] "POST /query HTTP/1.1" 200 -
+2025-03-11 14:50:50,578 - mediassist_agent - INFO - Processing query: 'prepare diet plan...' (Type: None)
+2025-03-11 14:50:51,343 - mediassist_agent - INFO - Router selected diet agent for query: 'prepare diet plan...'
+2025-03-11 14:50:51,344 - mediassist_agent - WARNING - Category diet not found in data
+2025-03-11 14:50:51,344 - mediassist_agent - INFO - No similar nutrition information found for query: 'prepare diet plan...', generating direct response
+2025-03-11 14:50:58,811 - mediassist_agent - INFO - ## 🥗 Nutritional Analysis
+
+Before creating a personalized diet plan, a thorough nutritional analysis is crucial.  This involves understanding your current dietary habits, health goals (weight loss, muscle gain, improved energy levels etc.), any allergies or intolerances, and your current health status.  This information is best gathered through a consultation with a registered dietitian or healthcare professional.  However, generally, a balanced diet should include:
+
+*   **Macronutrients:**  A sufficient intake of carbohydrates, proteins, and healthy fats is essential.  The ideal ratio varies depending on individual needs and goals.
+*   **Micronutrients:**  Vitamins and minerals are vital for various bodily functions.  A diverse diet rich in fruits, vegetables, and whole grains is key to obtaining these.
+*   **Fiber:**  Crucial for digestive health and overall well-being.  Aim for a high fiber intake through whole grains, fruits, vegetables, and legumes.
+*   **Processed Foods:**  Minimize consumption of processed foods, sugary drinks, and unhealthy fats, as these are often low in nutrients and high in calories.
+
+
+## ⚖️ Dietary Recommendations
+
+A balanced diet is key to overall health and well-being.  Here are some general dietary recommendations:
+
+1.  **Prioritize whole, unprocessed foods:**  Focus on fruits, vegetables, whole grains, lean proteins, and healthy fats.
+2.  **Control portion sizes:** Be mindful of how much you're eating to avoid overconsumption.
+3.  **Eat regularly:**  Avoid skipping meals, especially breakfast.  Regular meals help regulate blood sugar levels and prevent overeating later in the day.
+4.  **Limit added sugars:**  Reduce consumption of sugary drinks, desserts, and processed foods high in added sugars.
+5.  **Reduce saturated and trans fats:**  Choose lean protein sources and healthy fats like olive oil, avocados, and nuts.
+6.  **Increase your intake of fruits and vegetables:** Aim for at least 5 servings per day.  They are packed with vitamins, minerals, and fiber.
+7.  **Choose lean protein sources:**  Include sources like chicken breast, fish, beans, lentils, and tofu.
+8.  **Stay hydrated:** Drink plenty of water throughout the day.
+
+
+## 🍎 Food Suggestions
+
+Here are some examples of healthy food choices to incorporate into your diet:
+
+*   **Breakfast:** Oatmeal with berries and nuts, Greek yogurt with fruit, eggs with whole-wheat toast.
+*   **Lunch:** Salad with grilled chicken or fish, lentil soup, whole-wheat sandwich with lean protein and vegetables.
+*   **Dinner:** Baked salmon with roasted vegetables, chicken stir-fry with brown rice, vegetarian chili.
+*   **Snacks:** Fruits, vegetables, nuts, seeds, yogurt, hard-boiled eggs.
+
+
+## 💧 Hydration Guidelines
+
+*   **Drink plenty of water:** Aim for at least 8 glasses of water per day, more if you are physically active or live in a hot climate.
+*   **Limit sugary drinks:**  Avoid sodas, juices, and other sugary beverages.  These contribute to weight gain and other health problems.
+*   **Consider herbal teas:**  Unsweetened herbal teas can be a healthy and hydrating alternative to sugary drinks.
+
+
+## 🏋️ Lifestyle Considerations
+
+*   **Regular physical activity:**  Combine a healthy diet with regular exercise for optimal health benefits. Aim for at least 150 minutes of moderate-intensity or 75 minutes of vigorous-intensity aerobic activity per week.
+*   **Prioritize sleep:**  Aim for 7-9 hours of quality sleep per night.  Sleep deprivation can negatively impact your metabolism and overall health.
+*   **Manage stress:**  Chronic stress can lead to unhealthy eating habits.  Find healthy ways to manage stress, such as exercise, yoga, or meditation.
+*   **Seek professional guidance:**  Consult a registered dietitian or healthcare professional for personalized dietary advice and to address any specific health concerns.  **This information is for general guidance only and does not replace professional medical advice.**
+
+2025-03-11 14:50:58,836 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 14:50:58] "POST /query HTTP/1.1" 200 -
+2025-03-11 14:53:59,627 - mediassist_agent - INFO - Processing query: 'please prepare diet plan for me...' (Type: None)
+2025-03-11 14:54:00,200 - mediassist_agent - INFO - Router selected diet agent for query: 'please prepare diet plan for me...'
+2025-03-11 14:54:00,202 - mediassist_agent - WARNING - Category diet not found in data
+2025-03-11 14:54:00,202 - mediassist_agent - INFO - No similar nutrition information found for query: 'please prepare diet plan for me...', generating direct response
+2025-03-11 14:54:06,748 - mediassist_agent - INFO - ## 🥗 Nutritional Analysis
+
+Before creating a personalized diet plan, I need more information about you. This includes your:
+
+* Age
+* Gender
+* Height
+* Weight
+* Activity level (sedentary, lightly active, moderately active, very active, extra active)
+* Health conditions (allergies, intolerances, diseases)
+* Dietary preferences (vegetarian, vegan, etc.)
+* Goals (weight loss, weight gain, muscle building, general health improvement)
+
+A comprehensive nutritional analysis requires understanding your individual needs and circumstances.  Once this information is provided, I can assess your current caloric needs, macronutrient ratios (carbohydrates, proteins, and fats), and micronutrient intake.  This analysis will form the basis of your personalized dietary recommendations.
+
+
+## ⚖️ Dietary Recommendations
+
+* **Caloric Intake:**  This will be determined based on your individual needs and goals.  A calorie deficit is needed for weight loss, a surplus for weight gain, and maintenance for weight stability.
+* **Macronutrient Ratio:** The ideal ratio of carbohydrates, proteins, and fats will vary depending on your goals and activity level.  Generally, a balanced approach is recommended.
+* **Micronutrient Intake:**  Focus on consuming a variety of fruits, vegetables, whole grains, and lean proteins to ensure adequate intake of vitamins and minerals.
+* **Portion Control:**  Be mindful of portion sizes to avoid overeating, even healthy foods.
+* **Meal Timing:**  Distribute your calorie intake throughout the day with regular meals and snacks to maintain stable blood sugar levels and energy.
+* **Food Quality:** Prioritize **whole, unprocessed foods** over processed foods, sugary drinks, and excessive saturated and unhealthy fats.
+
+
+## 🍎 Food Suggestions
+
+These are general suggestions; specific recommendations will depend on your individual needs and preferences.
+
+1. **Breakfast:**
+    * Oatmeal with berries and nuts
+    * Greek yogurt with fruit and granola
+    * Scrambled eggs with whole-wheat toast and avocado
+    * Smoothie with fruits, vegetables, and protein powder
+
+2. **Lunch:**
+    * Salad with grilled chicken or fish
+    * Leftovers from dinner
+    * Whole-wheat sandwich with lean protein and vegetables
+    * Soup and a side salad
+
+3. **Dinner:**
+    * Baked salmon with roasted vegetables
+    * Chicken stir-fry with brown rice
+    * Lentil soup with whole-grain bread
+    * Vegetarian chili with cornbread
+
+4. **Snacks:**
+    * Fruits (apples, bananas, oranges)
+    * Vegetables (carrots, celery, bell peppers)
+    * Nuts and seeds
+    * Greek yogurt
+    * Hard-boiled eggs
+
+
+## 💧 Hydration Guidelines
+
+* Drink plenty of water throughout the day. Aim for at least **8 glasses (64 ounces)** of water, but adjust based on your activity level and climate.
+* Limit sugary drinks like soda and juice.
+* Consider incorporating other hydrating beverages like herbal tea (unsweetened) or infused water.
+
+
+## 🏋️ Lifestyle Considerations
+
+* **Regular Exercise:** Incorporate at least **150 minutes of moderate-intensity aerobic activity** or **75 minutes of vigorous-intensity aerobic activity** per week, along with muscle-strengthening activities twice a week.
+* **Sleep:** Aim for **7-9 hours of quality sleep** per night.  Sufficient sleep is crucial for overall health and weight management.
+* **Stress Management:** Practice stress-reducing techniques like yoga, meditation, or deep breathing exercises.  Chronic stress can negatively impact your health and diet.
+* **Mindful Eating:** Pay attention to your hunger and fullness cues. Eat slowly and savor your food. Avoid distractions while eating.
+
+
+**Disclaimer:** This information is for general knowledge and does not constitute medical advice.  Consult with a registered dietitian or healthcare professional for personalized dietary advice tailored to your specific needs and health conditions.
+
+2025-03-11 14:54:06,766 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 14:54:06] "POST /query HTTP/1.1" 200 -

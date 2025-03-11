@@ -148,61 +148,98 @@ export default function ChatInterface({ type, sessionId }: ChatInterfaceProps) {
     }
   }, [activeSession?.messages]);
   
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    if (!message.trim() || isLoading || !activeSessionId) return;
-    
-    // Add user message
-    addMessage(activeSessionId, {
-      content: message,
-      role: 'user'
+// in the handleSubmit function, improve the error handling and response processing:
+
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  
+  
+  if (!message.trim() || isLoading || !activeSessionId) return;
+  
+  // Add user message
+  addMessage(activeSessionId, {
+    content: message,
+    role: 'user'
+  });
+  
+  // Clear input
+  setMessage('');
+  
+  // Focus back on textarea
+  textareaRef.current?.focus();
+  
+  // Set loading state
+  setIsLoading(true);
+  
+  try {
+    console.log(`Sending request to /api/chat/${type}`, {
+      message,
+      sessionId: activeSessionId
     });
     
-    // Clear input
-    setMessage('');
+    // Connect to your API endpoint that talks to Python backend
+    const response = await fetch(`/api/chat/${type}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        message: message,
+        sessionId: activeSessionId
+      }),
+    });
     
-    // Focus back on textarea
-    textareaRef.current?.focus();
-    
-    // Set loading state
-    setIsLoading(true);
-    
-    try {
-      // Connect to your API endpoint that talks to Python backend
-      const response = await fetch(`/api/chat/${type}`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          message: message,
-          sessionId: activeSessionId
-        }),
-      });
-      
-      if (!response.ok) {
-        throw new Error('Failed to get response');
-      }
-      
-      const data = await response.json();
-      
-      // Add assistant response from Python backend
-      addMessage(activeSessionId, {
-        content: formatMarkdownResponse(data.response || data.message || "I couldn't process that request properly. Please try again."),
-        role: 'assistant'
-      });
-    } catch (error) {
-      console.error('Error getting AI response:', error);
-      // Add error message
-      addMessage(activeSessionId, {
-        content: 'Sorry, I encountered an error processing your request. Please try again.',
-        role: 'assistant'
-      });
-    } finally {
-      setIsLoading(false);
+    if (!response.ok) {
+      console.error(`API returned status: ${response.status}`);
+      throw new Error(`Failed to get response: ${response.status}`);
     }
-  };
+    
+    const data = await response.json();
+    console.log("Response from API:", data);
+    
+    // Add assistant response from Python backend
+    const responseContent = data.response || data.message || "I couldn't process that request properly. Please try again.";
+    console.log("Adding response to chat:", responseContent);
+    
+    addMessage(activeSessionId, {
+      content: formatMarkdownResponse(responseContent),
+      role: 'assistant',
+      metadata: data.show_booking ? { showBooking: true, specialists: data.specialists } : undefined
+    });
+
+    const isDietQuery = /diet|nutrition|meal plan|eating plan|food plan|healthy eating|weight loss plan/i.test(message);
+
+if (isDietQuery) {
+  // Show diet form instead of sending to backend immediately
+  setShowDietForm(true);
+  
+  // Add a prompt message from the assistant
+  addMessage(activeSessionId, {
+    content: "I'd be happy to help you create a personalized diet plan! Please complete the form below to get started.",
+    role: 'assistant',
+    metadata: { showDietForm: true }
+  });
+  
+  setIsLoading(false);
+  return;
+}
+    
+    // If there are specialists data and booking UI should be shown
+    if (data.show_booking && data.specialists) {
+      // You can handle showing the booking UI here if needed
+      console.log("Specialists data received:", data.specialists);
+    }
+  } catch (error) {
+    console.error('Error getting AI response:', error);
+    // Add error message
+    addMessage(activeSessionId, {
+      content: 'Sorry, I encountered an error processing your request. Please try again.',
+      role: 'assistant'
+    });
+  } finally {
+    setIsLoading(false);
+  }
+};
   
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -301,11 +338,37 @@ export default function ChatInterface({ type, sessionId }: ChatInterfaceProps) {
                         />
                       </div>
                     )}
-                    <div className={`prose prose-sm max-w-none break-words ${msg.role === 'user' ? 'text-primary-foreground' : 'text-foreground'}`}>
-                      <ReactMarkdown rehypePlugins={[rehypeSanitize]}>
-                        {msg.content}
-                      </ReactMarkdown>
-                    </div>
+                   
+
+<div className={`prose prose-sm max-w-none break-words ${msg.role === 'user' ? 'text-primary-foreground' : 'text-foreground'}`}>
+  {msg.content ? (
+    <ReactMarkdown 
+      rehypePlugins={[rehypeSanitize]}
+      components={{
+        h2: ({node, ...props}) => <h2 className="text-primary font-medium mt-4 mb-2" {...props} />,
+        h3: ({node, ...props}) => <h3 className="font-medium mt-3 mb-1" {...props} />,
+        p: ({node, ...props}) => <p className="mb-2" {...props} />,
+        ul: ({node, ...props}) => <ul className="pl-5 mb-2" {...props} />,
+        li: ({node, ...props}) => <li className="mb-1" {...props} />
+      }}
+    >
+      {msg.content}
+    </ReactMarkdown>
+  ) : (
+    <p className="text-muted-foreground italic">No content available</p>
+  )}
+  
+  {/* Show diet plan form if metadata indicates */}
+  {msg.metadata?.showDietForm && !showDietForm && (
+    <Button 
+      onClick={() => setShowDietForm(true)}
+      className="mt-2"
+    >
+      <Salad className="mr-2 h-4 w-4" />
+      Create Personalized Diet Plan
+    </Button>
+  )}
+</div>
                     <div className="text-xs opacity-50">
                       {format(new Date(msg.createdAt), 'h:mm a')}
                     </div>

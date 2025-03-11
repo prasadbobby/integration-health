@@ -16,6 +16,8 @@ export async function POST(
     // Connect to Python backend
     const pythonBackendUrl = process.env.PYTHON_BACKEND_URL || 'http://localhost:5002';
     
+    console.log(`Sending request to Python backend: ${pythonBackendUrl}/query`);
+    
     const pythonResponse = await fetch(`${pythonBackendUrl}/query`, {
       method: 'POST',
       headers: {
@@ -28,12 +30,14 @@ export async function POST(
     });
     
     if (!pythonResponse.ok) {
+      console.error(`Python backend returned status: ${pythonResponse.status}`);
       throw new Error(`Python backend returned status: ${pythonResponse.status}`);
     }
     
     const data = await pythonResponse.json();
-    return NextResponse.json(data);
+    console.log("Data received from Python backend:", data);
     
+    return NextResponse.json(data);
   } 
   catch (error: any) {
     console.error('Error in chat API:', error);
@@ -61,7 +65,4 @@ export async function POST(
       { status: 500 }
     );
   }
-
-
-
 }

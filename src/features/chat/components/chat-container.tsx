@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import ChatSidebar from './chat-sidebar';
 import ChatInterface from './chat-interface';
 import { useChatStore } from '../utils/store';
+import BackendStatusIndicator from '@/components/backend-status-indicator';
 
 interface ChatContainerProps {
   type: 'clinical' | 'literature' | 'symptom' | 'drug';
@@ -14,6 +15,7 @@ interface ChatContainerProps {
 
 export default function ChatContainer({ type, sessionId }: ChatContainerProps) {
   const [isStoreReady, setIsStoreReady] = useState(false);
+  const [showDietForm, setShowDietForm] = useState(false);
   const {
     sessions,
     activeSessionId,
@@ -71,15 +73,28 @@ export default function ChatContainer({ type, sessionId }: ChatContainerProps) {
   if (!isStoreReady) {
     return <div className="flex h-full items-center justify-center">Loading...</div>;
   }
+
+  const handleDietPlanGenerated = (plan: string) => {
+    if (!activeSessionId) return;
+    
+    addMessage(activeSessionId, {
+      content: plan,
+      role: 'assistant'
+    });
+    
+    setShowDietForm(false);
+  };
   
   return (
     <div className="flex h-[calc(100vh-4rem)]">
       <ChatSidebar type={type} />
       <div className="flex-1 flex flex-col">
+        <BackendStatusIndicator />
         <div className="flex-1 overflow-hidden">
           <ChatInterface type={type} sessionId={sessionId} />
         </div>
       </div>
     </div>
   );
+  
 }
